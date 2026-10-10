@@ -100,6 +100,10 @@ def main():
         assert bundle.read(config["cover"]) == cover_bytes, "Cover source missing or changed in ZIP"
         for name in config["chapters"]:
             assert name in bundle.namelist(), f"Chapter source missing from ZIP: {name}"
+        source_records = [ROOT / "README.md", ROOT / "TOC.md", *sorted((ROOT / "research").glob("*.md"))]
+        for record in source_records:
+            name = record.relative_to(ROOT).as_posix()
+            assert bundle.read(name) == record.read_bytes(), f"Source record missing or changed in ZIP: {name}"
         markdown = bundle.read("personal-agent-book.md").decode()
         for target in re.findall(r"!\[[^\]]*\]\(([^)]+)\)", markdown):
             assert target in bundle.namelist(), f"Markdown image missing from ZIP: {target}"

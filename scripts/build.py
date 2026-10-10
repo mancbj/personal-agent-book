@@ -90,6 +90,7 @@ def main():
         pdf_md.write_text(pdf_content)
         tex = temp / "layout.tex"
         run(["pandoc", str(pdf_md), *common, "--to=latex", "--top-level-division=chapter",
+             "--lua-filter=scripts/pdf-layout.lua",
              "--template=assets/pdf-template.tex", "--output", str(tex)], log)
         for _ in range(2):
             run(["xelatex", "-interaction=nonstopmode", "-halt-on-error", "-file-line-error",
@@ -120,8 +121,10 @@ def main():
         bundle.write(cover, config["cover"])
         for name in config["chapters"]:
             bundle.write(ROOT / name, name)
-        for name in ("LICENSE", "book.json"):
+        for name in ("LICENSE", "book.json", "README.md", "TOC.md"):
             bundle.write(ROOT / name, name)
+        for record in sorted((ROOT / "research").glob("*.md")):
+            bundle.write(record, record.relative_to(ROOT))
     downloads = [DIST / "personal-agent-book.html", DIST / "personal-agent-book.pdf", merged, archive]
     checksums = [f"{hashlib.sha256(p.read_bytes()).hexdigest()}  {p.name}" for p in downloads]
     (DIST / "SHA256SUMS.txt").write_text("\n".join(checksums) + "\n")

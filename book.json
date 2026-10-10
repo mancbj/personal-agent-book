@@ -1,12 +1,12 @@
 {
   "title": "Personal Agent",
   "subtitle": "从会回答，到能办事，再到值得托付",
-  "edition": "第一至四篇 · 理解、实践、回望与未来",
-  "version": "0.4.0-part4",
-  "review_label": "第一至四篇审阅版",
-  "publication_scope": "四篇阅读说明及第 1—12 章",
-  "next_note": "十二章正文初稿已齐，全书附录尚未编写。",
-  "release_summary": "新增第四篇阅读说明、第 11—12 章及未来情景图，提出附前提与反证的未来观察，讨论记忆迁移、商业推荐、授权责任与数字生活控制权。",
+  "edition": "全书初稿 · 四篇正文与五个附录",
+  "version": "0.5.0-complete-draft",
+  "review_label": "全书初稿审阅版",
+  "publication_scope": "四篇阅读说明、第 1—12 章及附录 A—E",
+  "next_note": "正文与附录已齐，后续按审阅意见修订并持续更新产品快照。",
+  "release_summary": "一次补齐五个附录：术语速查、十一项产品快照、六套可复用工作表、自托管入门、资料来源与争议索引；统一全书状态，来源记录随全套 ZIP 提供。",
   "cover": "assets/covers/personal-agent-book-cover.png",
   "date": "2026-10-10",
   "author": "personal-agent-book 开源书项目",
@@ -27,6 +27,11 @@
     "book/10-history-of-personal-agents.md",
     "book/part4-introduction.md",
     "book/11-future-scenarios.md",
-    "book/12-control-of-digital-life.md"
+    "book/12-control-of-digital-life.md",
+    "book/appendix-a-glossary.md",
+    "book/appendix-b-product-snapshot.md",
+    "book/appendix-c-worksheets.md",
+    "book/appendix-d-self-hosting.md",
+    "book/appendix-e-sources-and-disputes.md"
   ]
 }

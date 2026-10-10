@@ -105,4 +105,4 @@
 - 法律范围：[《民法典》政府公开全文](https://tjca.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_20cf1a2e1b854924b5caa744c8045d1f.html)，采用第二条及第一百六十二、一百七十一、一百七十二条的一般框架；不作具体交易效力判断或全球责任归纳。
 - 交易证据：[AP2 公告](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol)。技术授权记录与法律责任分开。
 
-本书十二章正文到此完成初稿。附录的术语、产品快照、可复用工作表、自托管路径及争议索引仍待编写；本版保留来源记录与更新日期，便于继续审阅和修订。
+本书十二章正文到此完成初稿。后面的附录提供术语、产品快照、可复用工作表、自托管路径及争议索引；全书保留来源记录与更新日期，便于继续审阅和修订。

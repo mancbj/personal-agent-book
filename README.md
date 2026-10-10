@@ -4,7 +4,7 @@
 
 我们从今天的真实问题出发：AI 能接手查找、串联、等待和跟进，但它是否真的减少了你的操心？全书先鸟瞰当下，再展开选择与使用，简短回溯过去，最后讨论有条件的未来。
 
-**当前版本：v0.4.0-part4 · 第一至四篇审阅版 · 2026-10-10。** 本版包含四篇阅读说明及第 1—12 章；十二章正文初稿已齐，全书附录尚未编写。
+**当前版本：v0.5.0-complete-draft · 全书初稿审阅版 · 2026-10-10。** 本版包含四篇阅读说明、第 1—12 章及附录 A—E，正文与附录已齐，可继续审阅修订。
 
 ## 阅读与下载
 
@@ -12,15 +12,16 @@
 - **第二篇 Markdown**：[阅读说明](book/part2-introduction.md) → [第 4 章·云端派](book/04-cloud-agents.md) → [第 5 章·本地派](book/05-local-runtimes.md) → [第 6 章·工作循环](book/06-how-agents-work.md) → [第 7 章·选购](book/07-choosing-an-agent.md) → [第 8 章·使用](book/08-delegating-work.md) → [第 9 章·托付](book/09-trust-and-permissions.md)。
 - **第三篇 Markdown**：[阅读说明](book/part3-introduction.md) → [第 10 章·演进历程](book/10-history-of-personal-agents.md)。
 - **第四篇 Markdown**：[阅读说明](book/part4-introduction.md) → [第 11 章·未来情景与验证信号](book/11-future-scenarios.md) → [第 12 章·数字生活控制权](book/12-control-of-digital-life.md)。
-- **版本与全套下载**：[v0.4.0-part4 发布页](https://github.com/mancbj/personal-agent-book/releases/tag/v0.4.0-part4)，已提供 [HTML](https://github.com/mancbj/personal-agent-book/releases/download/v0.4.0-part4/personal-agent-book.html)、[PDF](https://github.com/mancbj/personal-agent-book/releases/download/v0.4.0-part4/personal-agent-book.pdf)、[完整 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.4.0-part4/personal-agent-book.md) 与[全套 ZIP](https://github.com/mancbj/personal-agent-book/releases/download/v0.4.0-part4/personal-agent-book-v0.4.0-part4.zip)。
-- **在线 HTML**：[开始阅读第一至四篇](https://mancbj.github.io/personal-agent-book/)。阅读页同时提供 HTML、PDF、Markdown 和全套 ZIP 下载；部署状态见[出版工作流](https://github.com/mancbj/personal-agent-book/actions/workflows/publish.yml)。
-- **全书规划**：[已确认目录](TOC.md)；**编辑依据**：[分歧与写作约定](research/README.md)、[第一篇来源记录](research/part1-sources.md)、[第二篇来源记录](research/part2-sources.md)、[第三篇来源记录](research/part3-sources.md)、[第四篇来源记录](research/part4-sources.md)。
+- **附录 Markdown**：[A·术语](book/appendix-a-glossary.md) → [B·产品快照](book/appendix-b-product-snapshot.md) → [C·工作表](book/appendix-c-worksheets.md) → [D·自托管](book/appendix-d-self-hosting.md) → [E·来源与争议](book/appendix-e-sources-and-disputes.md)。
+- **版本与全套下载**：[v0.5.0-complete-draft 发布页](https://github.com/mancbj/personal-agent-book/releases/tag/v0.5.0-complete-draft)，已提供 [HTML](https://github.com/mancbj/personal-agent-book/releases/download/v0.5.0-complete-draft/personal-agent-book.html)、[PDF](https://github.com/mancbj/personal-agent-book/releases/download/v0.5.0-complete-draft/personal-agent-book.pdf)、[完整 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.5.0-complete-draft/personal-agent-book.md) 与[全套 ZIP](https://github.com/mancbj/personal-agent-book/releases/download/v0.5.0-complete-draft/personal-agent-book-v0.5.0-complete-draft.zip)。
+- **在线 HTML**：[开始阅读全书初稿](https://mancbj.github.io/personal-agent-book/)。阅读页同时提供 HTML、PDF、Markdown 和全套 ZIP 下载；部署状态见[出版工作流](https://github.com/mancbj/personal-agent-book/actions/workflows/publish.yml)。
+- **全书规划**：[已确认目录](TOC.md)；**编辑依据**：[分歧与写作约定](research/README.md)、[第一篇来源记录](research/part1-sources.md)、[第二篇来源记录](research/part2-sources.md)、[第三篇来源记录](research/part3-sources.md)、[第四篇来源记录](research/part4-sources.md)、[附录来源记录](research/appendices-sources.md)。
 
-单页 HTML 内嵌封面、样式与图像，可单独下载后断网阅读。PDF 首页采用同一张深绿英文封面，提供独立分页、目录、书签、页码和矢量图。封面原图随 ZIP 提供。完整 Markdown 的图片随 ZIP 提供；只下载 `.md` 文件时，图片资源需要一起保存。
+单页 HTML 内嵌封面、样式与图像，可单独下载后断网阅读。PDF 首页采用同一张深绿英文封面，提供独立分页、目录、书签、页码和矢量图。封面原图、分章源稿、README、目录与来源记录随 ZIP 提供。完整 Markdown 的图片随 ZIP 提供；只下载 `.md` 文件时，图片资源需要一起保存。
 
 ## 这本书适合谁
 
-如果你已经用过 AI，却还在不同软件之间复制内容、重复解释背景，或不停提醒它下一步，这本书从你的问题讲起。读者不需要编程背景；需要部署细节的人，后续可以阅读自托管章节和附录。
+如果你已经用过 AI，却还在不同软件之间复制内容、重复解释背景，或不停提醒它下一步，这本书从你的问题讲起。读者不需要编程背景；需要部署细节的人，可以阅读第 5 章和附录 D 的自托管路径。
 
 本书关注可持续的分工，而非品牌排行。理解“运行在哪里、能访问什么、由谁控制”，比记住某个短期套餐或模型型号更耐用。
 
@@ -32,7 +33,7 @@
 
 代理在本地、模型在本地、软件开源是三件不同的事。混合部署需要说明数据流与权限，不以“本地”或“云端”标签代替实际条件。
 
-## 当前内容与后续规划
+## 全书内容与进度
 
 | 篇 | 内容 | 当前进度 |
 | --- | --- | --- |
@@ -40,9 +41,9 @@
 | 第二篇：再看细节 | 云端、本地、工作循环、选购、使用、授权 | 已写成审阅版，第 4—9 章 |
 | 第三篇：简短回望 | 从数字助理到持续代理的演进历程 | 已写成审阅版，第 10 章 |
 | 第四篇：最后看未来 | 情景、验证信号与数字生活控制权 | 已写成审阅版，第 11—12 章 |
-| 附录 | 术语、产品快照、工作表、入门路径、来源 | 规划 |
+| 附录 | 术语、产品快照、工作表、入门路径、来源 | 已写成审阅版，附录 A—E |
 
-本版共九张信息图：任务交接、概念地图、产品版图、本地与云端资源边界、工作循环、选型路径、授权层次、演进历程、未来情景与验证信号。第二篇另提供一周试用记录表、委托模板与四个教学案例；第三篇用简短历史区分愿景、研究、能力与产品节点。第四篇为未来情景补充前提与反证，讨论记忆迁移、商业推荐、授权与责任，最后回到开篇的行程案例。
+本版共九张信息图：任务交接、概念地图、产品版图、本地与云端资源边界、工作循环、选型路径、授权层次、演进历程、未来情景与验证信号。第二篇另提供一周试用记录表、委托模板与四个教学案例；第三篇用简短历史区分愿景、研究、能力与产品节点。第四篇为未来情景补充前提与反证，讨论记忆迁移、商业推荐、授权与责任，最后回到开篇的行程案例。五个附录提供查阅与实践入口，其中产品快照逐项记录证据边界，六套工作表可直接复制使用。
 
 代表产品覆盖 Meta **Muse**、xAI **Grok Bot**、OpenAI **Dot（Dots）**、Manus **Cue**、腾讯 **LightVela**、字节 **Spell**、阿里 **千问的 Personal Agent**、**Instinct**、Today AI 的 **Today**，以及 **OpenClaw、Hermes**。进入版图不代表它们处于相同开放阶段：媒体曝光、路线宣布、邀请测试与实际可用分别标注。
 
@@ -94,7 +95,7 @@ python scripts/check.py
 | `personal-agent-book.html` | 相同内容的独立离线 HTML |
 | `personal-agent-book.pdf` | 排版阅读与一般打印 |
 | `personal-agent-book.md` | 当前已完成内容的完整 Markdown |
-| `personal-agent-book-v0.4.0-part4.zip` | 成品、分章 Markdown 和图片资源 |
+| `personal-agent-book-v0.5.0-complete-draft.zip` | 成品、分章 Markdown、图片与来源记录 |
 | `SHA256SUMS.txt` | 下载文件的校验值 |
 
 PDF 默认提供出版排版的阅读版。印厂所需开本、出血、色彩空间及 PDF/X 等参数，待具体出版需求确定后另行配置。
