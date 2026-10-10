@@ -104,7 +104,12 @@ def main():
     (Path(tempfile.gettempdir()) / "personal-agent-book-last-build.log").write_text("\n".join(log))
     (DIST / ".nojekyll").touch()
     tag = "v" + config["version"]
-    notes = f"# {config['edition']}\n\n版本：{tag} · {config['date']}\n\n本版将深绿英文封面（含作者提供的 Logo）加入 HTML 阅读页和 PDF 首页，并随 ZIP 提供封面原图。\n\n包含阅读说明及第一篇第 1—3 章、三张信息图、完整 Markdown、离线单页 HTML 和出版排版 PDF。第二篇将在审阅确认后继续。产品资料观察截至 {config['date']}，没有统一产品实机测评。\n\n独立 HTML 可断网阅读；Markdown 图片与分章源稿随 ZIP 提供。\n"
+    figure_count = len(IMAGE.findall(content))
+    notes = (f"# {config['edition']}\n\n版本：{tag} · {config['date']}\n\n"
+             f"{config['release_summary']}\n\n"
+             f"包含{config['publication_scope']}、{figure_count} 张信息图、完整 Markdown、离线单页 HTML 和出版排版 PDF。"
+             f"{config['next_note']} 产品资料观察截至 {config['date']}，没有统一产品实机测评。\n\n"
+             "HTML 与 PDF 保留深绿英文封面及作者提供的 Logo。独立 HTML 可断网阅读；封面、Markdown 图片与分章源稿随 ZIP 提供。\n")
     (DIST / "release-notes.md").write_text(notes)
     archive = DIST / f"personal-agent-book-{tag}.zip"
     with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as bundle:

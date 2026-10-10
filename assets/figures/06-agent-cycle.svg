@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="825" viewBox="0 0 960 825" role="img" aria-labelledby="title desc">
+<title id="title">持续办事：从目标到可核验结果</title><desc id="desc">计划、行动、观察、修正、验收构成循环；不符合验收时重新核查。模型参与判断，工具实施动作，运行时保存状态与调度。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#216E69"/></marker></defs>
+<rect width="960" height="825" fill="#F5F1E8"/>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#18343F">
+<text x="36" y="55" font-size="33" font-weight="700" fill="#18343F">持续办事：从目标到可核验结果</text>
+<text x="36" y="99" font-size="23" font-weight="400" fill="#526774">输入：目标、背景、资源、授权与验收标准</text>
+<rect x="70" y="138" width="570" height="98" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
+<text x="92" y="182" font-size="27" font-weight="700" fill="#216E69">1  计划</text>
+<text x="92" y="224" font-size="22" font-weight="400" fill="#18343F">确认条件，选择下一步</text>
+<path d="M355 237 L355 254" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="70" y="256" width="570" height="98" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
+<text x="92" y="300" font-size="27" font-weight="700" fill="#216E69">2  行动</text>
+<text x="92" y="342" font-size="22" font-weight="400" fill="#18343F">调用获准工具，记录请求</text>
+<path d="M355 355 L355 372" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="70" y="374" width="570" height="98" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
+<text x="92" y="418" font-size="27" font-weight="700" fill="#216E69">3  观察</text>
+<text x="92" y="460" font-size="22" font-weight="400" fill="#18343F">读取结果，核对外部状态</text>
+<path d="M355 473 L355 490" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="70" y="492" width="570" height="98" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
+<text x="92" y="536" font-size="27" font-weight="700" fill="#216E69">4  修正</text>
+<text x="92" y="578" font-size="22" font-weight="400" fill="#18343F">根据变化调整，保留原边界</text>
+<path d="M355 591 L355 608" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="70" y="610" width="570" height="98" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
+<text x="92" y="654" font-size="27" font-weight="700" fill="#216E69">5  验收</text>
+<text x="92" y="696" font-size="22" font-weight="400" fill="#18343F">符合标准才完成；否则继续核查</text>
+<rect x="687" y="138" width="243" height="390" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
+<text x="709" y="182" font-size="27" font-weight="700" fill="#216E69">各部分的职责</text>
+<text x="709" y="224" font-size="22" font-weight="400" fill="#18343F">模型：参与判断</text>
+<text x="709" y="260" font-size="22" font-weight="400" fill="#18343F">工具：实施动作</text>
+<text x="709" y="296" font-size="22" font-weight="400" fill="#18343F">运行时：保存状态</text>
+<text x="709" y="332" font-size="22" font-weight="400" fill="#18343F">调度与执行控制</text>
+<text x="709" y="368" font-size="22" font-weight="400" fill="#18343F"></text>
+<text x="709" y="404" font-size="22" font-weight="400" fill="#18343F">碰到边界，暂停</text>
+<text x="709" y="440" font-size="22" font-weight="400" fill="#18343F">请求人的决定</text>
+<path d="M70 660 L36 660 L36 185 L68 185" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="687" y="587" font-size="22" font-weight="400" fill="#526774">动作已提交</text>
+<text x="687" y="623" font-size="22" font-weight="400" fill="#526774">不等于结果已生效</text>
+<text x="70" y="785" font-size="23" font-weight="700" fill="#216E69">进度报告：已完成什么 · 等什么 · 下一步 · 需要谁决定</text>
+</g>
+</svg>

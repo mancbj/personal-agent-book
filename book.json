@@ -1,8 +1,12 @@
 {
   "title": "Personal Agent",
   "subtitle": "从会回答，到能办事，再到值得托付",
-  "edition": "第一篇 · 先看今天：AI 正在接手什么",
-  "version": "0.1.1-part1",
+  "edition": "第一、二篇 · 从理解到实践",
+  "version": "0.2.0-part2",
+  "review_label": "第一、二篇审阅版",
+  "publication_scope": "两篇阅读说明及第 1—9 章",
+  "next_note": "第三、四篇及全书附录尚未写作。",
+  "release_summary": "新增第二篇第 4—9 章，展开云端、本地、工作循环、选购、委托与授权；增加四张信息图、一周试用表和四个教学案例。",
   "cover": "assets/covers/personal-agent-book-cover.png",
   "date": "2026-10-10",
   "author": "personal-agent-book 开源书项目",
@@ -11,6 +15,13 @@
     "book/00-introduction.md",
     "book/01-what-agents-take-over.md",
     "book/02-concepts-and-runtimes.md",
-    "book/03-product-landscape.md"
+    "book/03-product-landscape.md",
+    "book/part2-introduction.md",
+    "book/04-cloud-agents.md",
+    "book/05-local-runtimes.md",
+    "book/06-how-agents-work.md",
+    "book/07-choosing-an-agent.md",
+    "book/08-delegating-work.md",
+    "book/09-trust-and-permissions.md"
   ]
 }

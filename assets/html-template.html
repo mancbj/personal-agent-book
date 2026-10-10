@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="一本帮助中文读者理解、选择和使用个人智能体的开源书。本版包含第一篇三章。">
+<meta name="description" content="一本帮助中文读者理解、选择和使用个人智能体的开源书。本版包含$publication_scope$。">
 <meta name="generator" content="Pandoc">
 <title>$title$ · $edition$</title>
 $for(css)$<link rel="stylesheet" href="$css$">$endfor$
@@ -18,7 +18,7 @@ $for(css)$<link rel="stylesheet" href="$css$">$endfor$
 <h1>$title$</h1>
 <p class="subtitle">$subtitle$</p>
 <p class="edition">$edition$</p>
-<p class="edition">v$version$ · 第一篇审阅版 · 资料观察截至 $date$</p>
+<p class="edition">v$version$ · $review_label$ · 资料观察截至 $date$</p>
 <div class="downloads" aria-label="阅读与下载">
 <a href="personal-agent-book.html" download>下载单页 HTML</a>
 <a href="personal-agent-book.pdf" download>PDF</a>
@@ -33,6 +33,6 @@ $for(css)$<link rel="stylesheet" href="$css$">$endfor$
 <aside class="sidebar" aria-label="本版目录"><details open><summary>本版目录</summary><nav aria-label="章节目录">$toc$</nav></details></aside>
 <main class="book-content" id="book-content">$body$</main>
 </div>
-<footer>第一篇审阅版 · 第二篇将在审阅确认后继续。原创内容采用 Apache-2.0 许可证，第三方资料保留原有权利。</footer>
+<footer>$review_label$ · $next_note$ 原创内容采用 Apache-2.0 许可证，第三方资料保留原有权利。</footer>
 </body>
 </html>

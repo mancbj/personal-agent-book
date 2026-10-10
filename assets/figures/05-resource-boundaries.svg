@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="880" viewBox="0 0 960 880" role="img" aria-labelledby="title desc">
+<title id="title">资源边界：本地、云端与混合</title><desc id="desc">本地靠近应用、私有文件、内网和硬件；云端提供托管环境；混合连接两端。运行位置、模型位置和数据流分别检查。</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#216E69"/></marker></defs>
+<rect width="960" height="880" fill="#F5F1E8"/>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#18343F">
+<text x="36" y="55" font-size="33" font-weight="700" fill="#18343F">资源边界：本地、云端与混合</text>
+<text x="36" y="99" font-size="23" font-weight="400" fill="#526774">先看资源在哪里，再核对模型与数据流</text>
+<rect x="30" y="142" width="280" height="398" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
+<text x="52" y="186" font-size="27" font-weight="700" fill="#216E69">本地运行</text>
+<text x="52" y="228" font-size="22" font-weight="400" fill="#18343F">自己的设备或网络</text>
+<text x="52" y="264" font-size="22" font-weight="400" fill="#18343F">本机软件与会话</text>
+<text x="52" y="300" font-size="22" font-weight="400" fill="#18343F">私有文件、NAS</text>
+<text x="52" y="336" font-size="22" font-weight="400" fill="#18343F">内网设备、物理接口</text>
+<text x="52" y="372" font-size="22" font-weight="400" fill="#18343F"></text>
+<text x="52" y="408" font-size="22" font-weight="400" fill="#18343F">维护与恢复由你承担</text>
+<rect x="340" y="142" width="280" height="398" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
+<text x="362" y="186" font-size="27" font-weight="700" fill="#216E69">混合部署</text>
+<text x="362" y="228" font-size="22" font-weight="400" fill="#18343F">连接两端资源</text>
+<text x="362" y="264" font-size="22" font-weight="400" fill="#18343F">云端调度本地执行</text>
+<text x="362" y="300" font-size="22" font-weight="400" fill="#18343F">或本地调用云模型</text>
+<text x="362" y="336" font-size="22" font-weight="400" fill="#18343F">本机步骤需节点在线</text>
+<text x="362" y="372" font-size="22" font-weight="400" fill="#18343F"></text>
+<text x="362" y="408" font-size="22" font-weight="400" fill="#18343F">逐项确认传输与权限</text>
+<rect x="650" y="142" width="280" height="398" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
+<text x="672" y="186" font-size="27" font-weight="700" fill="#216E69">平台云端</text>
+<text x="672" y="228" font-size="22" font-weight="400" fill="#18343F">厂商托管运行环境</text>
+<text x="672" y="264" font-size="22" font-weight="400" fill="#18343F">云电脑与连接应用</text>
+<text x="672" y="300" font-size="22" font-weight="400" fill="#18343F">常驻任务与通知</text>
+<text x="672" y="336" font-size="22" font-weight="400" fill="#18343F">按资格和额度使用</text>
+<text x="672" y="372" font-size="22" font-weight="400" fill="#18343F"></text>
+<text x="672" y="408" font-size="22" font-weight="400" fill="#18343F">托管减少部分运维</text>
+<path d="M310 326 L338 326" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M650 372 L622 372" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="30" y="575" width="900" height="218" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
+<text x="52" y="619" font-size="27" font-weight="700" fill="#216E69">同样需要回答四个问题</text>
+<text x="52" y="661" font-size="22" font-weight="400" fill="#18343F">原资料在哪里？   模型收到什么？</text>
+<text x="52" y="697" font-size="22" font-weight="400" fill="#18343F">工具能动什么？   日志与副本在哪里？</text>
+<text x="52" y="733" font-size="22" font-weight="400" fill="#18343F">本地进程 ≠ 本地模型 ≠ 软件开源</text>
+<text x="36" y="845" font-size="23" font-weight="400" fill="#526774">严格不外发与离线任务，要检查完整依赖链路。</text>
+</g>
+</svg>

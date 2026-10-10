@@ -4,14 +4,15 @@
 
 我们从今天的真实问题出发：AI 能接手查找、串联、等待和跟进，但它是否真的减少了你的操心？全书先鸟瞰当下，再展开选择与使用，简短回溯过去，最后讨论有条件的未来。
 
-**当前版本：v0.1.1-part1 · 第一篇审阅版 · 2026-10-10。** 本版包含第一篇三章及阅读说明；第二篇将在作者审阅确认后继续，历史、未来与全书附录尚未写作。
+**当前版本：v0.2.0-part2 · 第一、二篇审阅版 · 2026-10-10。** 本版包含两篇阅读说明及第 1—9 章；历史、未来与全书附录尚未写作。
 
 ## 阅读与下载
 
 - **现在阅读 Markdown**：[阅读说明](book/00-introduction.md) → [第 1 章](book/01-what-agents-take-over.md) → [第 2 章](book/02-concepts-and-runtimes.md) → [第 3 章](book/03-product-landscape.md)。
-- **版本与全套下载**：[v0.1.1-part1 发布页](https://github.com/mancbj/personal-agent-book/releases/tag/v0.1.1-part1)，已提供 [HTML](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.1-part1/personal-agent-book.html)、[PDF](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.1-part1/personal-agent-book.pdf)、[完整 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.1-part1/personal-agent-book.md) 与[全套 ZIP](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.1-part1/personal-agent-book-v0.1.1-part1.zip)。
-- **在线 HTML**：[开始阅读第一篇](https://mancbj.github.io/personal-agent-book/)。阅读页同时提供 HTML、PDF、Markdown 和全套 ZIP 下载；部署状态见[出版工作流](https://github.com/mancbj/personal-agent-book/actions/workflows/publish.yml)。
-- **全书规划**：[已确认目录](TOC.md)；**编辑依据**：[分歧与写作约定](research/README.md)、[第一篇来源记录](research/part1-sources.md)。
+- **第二篇 Markdown**：[阅读说明](book/part2-introduction.md) → [第 4 章·云端派](book/04-cloud-agents.md) → [第 5 章·本地派](book/05-local-runtimes.md) → [第 6 章·工作循环](book/06-how-agents-work.md) → [第 7 章·选购](book/07-choosing-an-agent.md) → [第 8 章·使用](book/08-delegating-work.md) → [第 9 章·托付](book/09-trust-and-permissions.md)。
+- **版本与全套下载**：[v0.2.0-part2 发布页](https://github.com/mancbj/personal-agent-book/releases/tag/v0.2.0-part2)，已提供 [HTML](https://github.com/mancbj/personal-agent-book/releases/download/v0.2.0-part2/personal-agent-book.html)、[PDF](https://github.com/mancbj/personal-agent-book/releases/download/v0.2.0-part2/personal-agent-book.pdf)、[完整 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.2.0-part2/personal-agent-book.md) 与[全套 ZIP](https://github.com/mancbj/personal-agent-book/releases/download/v0.2.0-part2/personal-agent-book-v0.2.0-part2.zip)。
+- **在线 HTML**：[开始阅读第一、二篇](https://mancbj.github.io/personal-agent-book/)。阅读页同时提供 HTML、PDF、Markdown 和全套 ZIP 下载；部署状态见[出版工作流](https://github.com/mancbj/personal-agent-book/actions/workflows/publish.yml)。
+- **全书规划**：[已确认目录](TOC.md)；**编辑依据**：[分歧与写作约定](research/README.md)、[第一篇来源记录](research/part1-sources.md)、[第二篇来源记录](research/part2-sources.md)。
 
 单页 HTML 内嵌封面、样式与图像，可单独下载后断网阅读。PDF 首页采用同一张深绿英文封面，提供独立分页、目录、书签、页码和矢量图。封面原图随 ZIP 提供。完整 Markdown 的图片随 ZIP 提供；只下载 `.md` 文件时，图片资源需要一起保存。
 
@@ -34,12 +35,12 @@
 | 篇 | 内容 | 当前进度 |
 | --- | --- | --- |
 | 第一篇：先看今天 | 行程案例、概念与部署地图、产品版图 | 已写成审阅版，第 1—3 章 |
-| 第二篇：再看细节 | 云端、本地、工作循环、选购、使用、授权 | 目录已确认，待第一篇审阅后写作 |
+| 第二篇：再看细节 | 云端、本地、工作循环、选购、使用、授权 | 已写成审阅版，第 4—9 章 |
 | 第三篇：简短回望 | 从数字助理到持续代理的演进历程 | 规划，第 10 章 |
 | 第四篇：最后看未来 | 情景、验证信号与数字生活控制权 | 规划，第 11—12 章 |
 | 附录 | 术语、产品快照、工作表、入门路径、来源 | 规划 |
 
-第一篇的章首图包括任务交接、概念范围与代表产品、产品及生态版图。全书计划中的演进历程、选型决策树等图，将随对应章节完成。
+本版共七张信息图：任务交接、概念地图、产品版图、本地与云端资源边界、工作循环、选型路径、授权层次。第二篇另提供一周试用记录表、委托模板与四个教学案例。演进历程等后续图表随对应章节完成。
 
 代表产品覆盖 Meta **Muse**、xAI **Grok Bot**、OpenAI **Dot（Dots）**、Manus **Cue**、腾讯 **LightVela**、字节 **Spell**、阿里 **千问的 Personal Agent**、**Instinct**、Today AI 的 **Today**，以及 **OpenClaw、Hermes**。进入版图不代表它们处于相同开放阶段：媒体曝光、路线宣布、邀请测试与实际可用分别标注。
 
@@ -49,7 +50,7 @@
 
 本书珍视观点分歧，分析它们的适用条件；事实冲突则查出处并校正，无法解决时保留边界。官方描述、厂商演示、媒体报道、个体体验、作者分析和实测结果分别呈现。
 
-第一篇资料观察截至 **2026-10-10**，主要核对公开公告和文档，没有统一产品实机测评。Instinct 的约 10% 日增长保留为有出处的访谈说法，未独立核实基数、区间与完整指标定义。价格、平台和地区范围，以读者尝试时的最新官方信息为准。
+本版资料观察截至 **2026-10-10**，主要核对公开公告和文档，没有统一产品实机测评。Instinct 的约 10% 日增长保留为有出处的访谈说法，未独立核实基数、区间与完整指标定义。价格、平台和地区范围，以读者尝试时的最新官方信息为准。
 
 发现错误时，请在 [Issues](https://github.com/mancbj/personal-agent-book/issues) 提供章节、原说法、建议修正及可核对来源。涉及体验时，补充日期、版本和具体任务，有助于分清事实变化与不同使用条件。
 
@@ -91,7 +92,7 @@ python scripts/check.py
 | `personal-agent-book.html` | 相同内容的独立离线 HTML |
 | `personal-agent-book.pdf` | 排版阅读与一般打印 |
 | `personal-agent-book.md` | 当前已完成内容的完整 Markdown |
-| `personal-agent-book-v0.1.1-part1.zip` | 成品、分章 Markdown 和图片资源 |
+| `personal-agent-book-v0.2.0-part2.zip` | 成品、分章 Markdown 和图片资源 |
 | `SHA256SUMS.txt` | 下载文件的校验值 |
 
 PDF 默认提供出版排版的阅读版。印厂所需开本、出血、色彩空间及 PDF/X 等参数，待具体出版需求确定后另行配置。
@@ -102,7 +103,7 @@ PDF 默认提供出版排版的阅读版。印厂所需开本、出血、色彩�
 
 Pages 部署后，工作流还会访问公开首页和四项下载，要求 HTTP 200，并逐项比较发布文件与本次构建的 SHA256，避免把上传成功当成读者已能访问。
 
-**Pages 首次开启**：仓库管理员在 [Settings → Pages](https://github.com/mancbj/personal-agent-book/settings/pages) 的 **Build and deployment → Source** 选择 **GitHub Actions**，随后在出版工作流中重新运行失败的 Pages 作业，或推送一次 `main` 更新。部署步骤成功并实际访问后，再公布阅读网址。工作流的默认 `GITHUB_TOKEN` 可以部署已启用的站点，不能承担首次启用所需的管理操作。
+**维护其他仓库的 Pages**：本仓库已启用 GitHub Actions Pages。首次为其他仓库配置时，仓库管理员在 [Settings → Pages](https://github.com/mancbj/personal-agent-book/settings/pages) 的 **Build and deployment → Source** 选择 **GitHub Actions**，随后在出版工作流中重新运行失败的 Pages 作业，或推送一次 `main` 更新。部署步骤成功并实际访问后，再公布阅读网址。工作流的默认 `GITHUB_TOKEN` 可以部署已启用的站点，不能承担首次启用所需的管理操作。
 
 欢迎提交勘误、可靠来源、可复现的任务体验与图表改进。正文使用中文，首次出现的必要术语附英文；引用放在邻近段落，并在章末记录出处与日期。贡献应围绕已确认目录与当前审阅范围展开，较大结构调整先通过 Issue 说明。
 
