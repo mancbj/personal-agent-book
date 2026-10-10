@@ -10,7 +10,7 @@
 
 - **现在阅读 Markdown**：[阅读说明](book/00-introduction.md) → [第 1 章](book/01-what-agents-take-over.md) → [第 2 章](book/02-concepts-and-runtimes.md) → [第 3 章](book/03-product-landscape.md)。
 - **版本与全套下载**：[v0.1.0-part1 发布页](https://github.com/mancbj/personal-agent-book/releases/tag/v0.1.0-part1)，已提供 [HTML](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.0-part1/personal-agent-book.html)、[PDF](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.0-part1/personal-agent-book.pdf)、[完整 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.0-part1/personal-agent-book.md) 与[全套 ZIP](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.0-part1/personal-agent-book-v0.1.0-part1.zip)。
-- **在线 HTML**：仓库已启用 GitHub Actions Pages，正在部署阅读版。部署状态见[出版工作流](https://github.com/mancbj/personal-agent-book/actions/workflows/publish.yml)；可访问地址将在实际部署并验证后公布。
+- **在线 HTML**：[开始阅读第一篇](https://mancbj.github.io/personal-agent-book/)。阅读页同时提供 HTML、PDF、Markdown 和全套 ZIP 下载；部署状态见[出版工作流](https://github.com/mancbj/personal-agent-book/actions/workflows/publish.yml)。
 - **全书规划**：[已确认目录](TOC.md)；**编辑依据**：[分歧与写作约定](research/README.md)、[第一篇来源记录](research/part1-sources.md)。
 
 单页 HTML 内嵌样式与图像，可单独下载后断网阅读。PDF 提供独立分页、封面、目录、书签、页码和矢量图。完整 Markdown 的图片随 ZIP 提供；只下载 `.md` 文件时，图片资源需要一起保存。
@@ -99,6 +99,8 @@ PDF 默认提供出版排版的阅读版。印厂所需开本、出血、色彩�
 ## 发布与贡献
 
 提交到 `main` 会运行构建、成品检查与 Pages 部署；Pull Request 运行构建和检查；推送与 `book.json` 版本一致的 `v*` 标签会生成 GitHub Release 并上传全套成品。历史版本保存在发布页，在线版跟随 `main`。
+
+Pages 部署后，工作流还会访问公开首页和四项下载，要求 HTTP 200，并逐项比较发布文件与本次构建的 SHA256，避免把上传成功当成读者已能访问。
 
 **Pages 首次开启**：仓库管理员在 [Settings → Pages](https://github.com/mancbj/personal-agent-book/settings/pages) 的 **Build and deployment → Source** 选择 **GitHub Actions**，随后在出版工作流中重新运行失败的 Pages 作业，或推送一次 `main` 更新。部署步骤成功并实际访问后，再公布阅读网址。工作流的默认 `GITHUB_TOKEN` 可以部署已启用的站点，不能承担首次启用所需的管理操作。
 

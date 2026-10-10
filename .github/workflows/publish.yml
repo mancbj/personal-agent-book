@@ -72,6 +72,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
       - uses: actions/download-artifact@v4
         with:
@@ -83,3 +84,7 @@ jobs:
       - name: Deploy reading edition
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Verify public reading and downloads
+        env:
+          BOOK_SITE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: python3 scripts/check_site.py "$BOOK_SITE_URL"
