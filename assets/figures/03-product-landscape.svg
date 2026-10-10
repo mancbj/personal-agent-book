@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="920" viewBox="0 0 960 920" role="img" aria-labelledby="03-product-landscape-title 03-product-landscape-desc" id="d-03-product-landscape-root">
 <title id="03-product-landscape-title">产品版图：看入口，也看开放状态</title>
-<desc id="03-product-landscape-desc">个人代理分为海外托管、国内动向、创业路线和开放运行时四个观察组，十一项产品全部列出，开放运行时连接本地与云端。</desc>
+<desc id="03-product-landscape-desc">个人智能体分为海外托管、国内动向、创业路线和开放运行时四个观察组，十一项产品全部列出，开放运行时连接本地与云端。</desc>
 <!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
 MIT License
 
@@ -41,7 +41,7 @@ SOFTWARE.
 <line x1="256" y1="572" x2="304" y2="572" stroke="#526774" stroke-width="1.2"/>
 <line x1="256" y1="740" x2="304" y2="740" stroke="#526774" stroke-width="1.2"/>
 <rect x="40" y="416" width="184" height="128" rx="6" fill="#e5eee9" stroke="#216e69" stroke-width="1.2"/>
-<text x="60" y="448" fill="#216e69" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">个人代理</text>
+<text x="60" y="448" fill="#216e69" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">个人智能体</text>
 <text x="60" y="484" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">入口与运行环境</text>
 <text x="60" y="516" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">分别核对</text>
 <text x="304" y="200" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">海外托管平台</text>

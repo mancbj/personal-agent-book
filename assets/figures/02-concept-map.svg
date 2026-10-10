@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="840" viewBox="0 0 960 840" role="img" aria-labelledby="02-concept-map-title 02-concept-map-desc" id="d-02-concept-map-root">
 <title id="02-concept-map-title">把执行、推理与开放分开看</title>
-<desc id="02-concept-map-desc">执行位置与模型推理位置形成四种示意配置，软件开放程度另行核对，对话、任务和个人代理的能力可以重叠。</desc>
+<desc id="02-concept-map-desc">执行位置与模型推理位置形成四种示意配置，软件开放程度另行核对，对话、任务和个人智能体的能力可以重叠。</desc>
 <!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
 MIT License
 
@@ -38,7 +38,7 @@ SOFTWARE.
 <text x="40" y="232" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">解释 · 建议 · 草稿</text>
 <text x="344" y="196" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">任务代理</text>
 <text x="344" y="232" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">计划 · 工具 · 交付</text>
-<text x="648" y="196" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">个人代理</text>
+<text x="648" y="196" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">个人智能体</text>
 <text x="648" y="232" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">个人上下文 · 持续跟进</text>
 <text x="40" y="280" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">能力可以重叠；工作／个人是组织重点，权限分别管理。</text>
 <text x="40" y="352" fill="#18343f" font-size="20" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">模型推理</text>

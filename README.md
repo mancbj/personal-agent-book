@@ -33,19 +33,19 @@ AI 已经能回答问题、操作工具，甚至在你离开之后继续工作�
 
 ## 阅读与下载
 
-当前版本：**[v0.6.0-visual-edition](https://github.com/mancbj/personal-agent-book/releases/tag/v0.6.0-visual-edition)** · 全书初稿 · 图表修订版 · 2026-10-10。**四篇正文、12 章、5 个附录已经齐全**，后续继续通读修订与更新产品快照。
+当前版本：**[v0.6.1-terminology-update](https://github.com/mancbj/personal-agent-book/releases/tag/v0.6.1-terminology-update)** · 全书初稿 · 术语统一版 · 2026-10-10。全书将 Personal Agent 统一称为“个人智能体”；**四篇正文、12 章、5 个附录已经齐全**，后续继续通读修订与更新产品快照。
 
 <!-- RELEASE-DOWNLOADS-BEGIN -->
 | 阅读方式 | 入口 | 适合怎样使用 |
 | --- | --- | --- |
 | 在线阅读 | [GitHub Pages 全书](https://mancbj.github.io/personal-agent-book/) | 直接开始，使用目录跳转，手机和电脑均可阅读 |
-| PDF | [下载阅读版](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.0-visual-edition/personal-agent-book.pdf) | 分页阅读，带封面、目录、书签与矢量图 |
-| 单页 HTML | [下载离线版](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.0-visual-edition/personal-agent-book.html) | 一份文件保存全文、封面与图像，断网可读 |
-| 完整 Markdown | [下载全书 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.0-visual-edition/personal-agent-book.md) | 检索、摘录或用自己的编辑器阅读；图片需随包保存 |
-| 全套 ZIP | [下载全部文件](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.0-visual-edition/personal-agent-book-v0.6.0-visual-edition.zip) | 同时获得各格式、分章源稿、封面、图像和来源记录 |
+| PDF | [下载阅读版](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.1-terminology-update/personal-agent-book.pdf) | 分页阅读，带封面、目录、书签与矢量图 |
+| 单页 HTML | [下载离线版](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.1-terminology-update/personal-agent-book.html) | 一份文件保存全文、封面与图像，断网可读 |
+| 完整 Markdown | [下载全书 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.1-terminology-update/personal-agent-book.md) | 检索、摘录或用自己的编辑器阅读；图片需随包保存 |
+| 全套 ZIP | [下载全部文件](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.1-terminology-update/personal-agent-book-v0.6.1-terminology-update.zip) | 同时获得各格式、分章源稿、封面、图像和来源记录 |
 <!-- RELEASE-DOWNLOADS-END -->
 
-[查看全部版本](https://github.com/mancbj/personal-agent-book/releases) · [本版文件校验值](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.0-visual-edition/SHA256SUMS.txt)
+[查看全部版本](https://github.com/mancbj/personal-agent-book/releases) · [本版文件校验值](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.1-terminology-update/SHA256SUMS.txt)
 
 <a id="start-reading"></a>
 
