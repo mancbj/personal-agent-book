@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720" role="img" aria-labelledby="12-migration-title 12-migration-desc" id="d-12-migration-root">
+<title id="12-migration-title">能导出记录，还要能安全地继续</title>
+<desc id="12-migration-desc">迁移先暂停旧环境，核对和导出任务状态，在新环境检查上下文并重新授权，最后用低风险任务验证恢复，凭证与付款权限不自动继承。</desc>
+<!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
+MIT License
+
+Copyright (c) 2025 Cathryn Lavery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<defs>
+      <style>#d-12-migration-root { color: #18343f; font-family: Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif; }
+      #d-12-migration-root .diagram-container { width:100%;overflow-x:auto }
+      #d-12-migration-root .diagram-container { overflow:visible }</style><marker id="d-12-migration-12-migration-neutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#526774"/></marker>
+<marker id="d-12-migration-12-migration-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#216e69"/></marker></defs>
+<rect x="0" y="0" width="960" height="720" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="40" y="48" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">PERSONAL AGENT  /  PROCESS</text>
+<text x="40" y="100" fill="#18343f" font-size="32" font-weight="600" font-family="Noto Serif CJK SC, Songti SC, serif" text-anchor="start">能导出记录，还要能安全地继续</text>
+<text x="40" y="140" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">把状态与行动权限分开：搬走必要上下文，重新决定能做什么。</text>
+<path d="M192 372 H220" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-12-migration-12-migration-neutral)"/>
+<path d="M372 372 H400" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-12-migration-12-migration-neutral)"/>
+<path d="M552 372 H580" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-12-migration-12-migration-neutral)"/>
+<path d="M732 372 H760" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-12-migration-12-migration-neutral)"/>
+<text x="40" y="252" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">01</text>
+<rect x="40" y="284" width="152" height="176" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="52" y="328" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">暂停旧环境</text>
+<text x="52" y="376" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">任务与触发器</text>
+<text x="52" y="408" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">停止新动作</text>
+<text x="220" y="252" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">02</text>
+<rect x="220" y="284" width="152" height="176" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="232" y="328" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">核对与导出</text>
+<text x="232" y="376" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">已完成／待办</text>
+<text x="232" y="408" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">未知状态另列</text>
+<text x="400" y="252" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">03</text>
+<rect x="400" y="284" width="152" height="176" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="412" y="328" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">导入并检查</text>
+<text x="412" y="376" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">来源与适用范围</text>
+<text x="412" y="408" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">状态是否可用</text>
+<text x="580" y="252" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">04</text>
+<rect x="580" y="284" width="152" height="176" rx="6" fill="#e5eee9" stroke="#216e69" stroke-width="1.2"/>
+<text x="592" y="328" fill="#216e69" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">重新授权</text>
+<text x="592" y="376" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">范围与对象</text>
+<text x="592" y="408" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">期限与额度</text>
+<text x="760" y="252" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">05</text>
+<rect x="760" y="284" width="152" height="176" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="772" y="328" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">小任务验证</text>
+<text x="772" y="376" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">核对回执</text>
+<text x="772" y="408" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">防止重复执行</text>
+<line x1="40" y1="516" x2="920" y2="516" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="40" y="564" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">不自动继承</text>
+<text x="264" y="564" fill="#18343f" font-size="23" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">登录凭证  /  付款权限  /  长期授权</text>
+<text x="40" y="608" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">旧环境的已发消息、已提交订单仍需核对；不要让两端重复行动。</text>
+<line x1="40" y1="652" x2="920" y2="652" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="40" y="688" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">作者迁移验收框架；导出功能不等于完整恢复能力，按实际产品验证。</text>
+</svg>

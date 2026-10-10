@@ -12,6 +12,7 @@ import tempfile
 import zipfile
 
 import cairosvg
+from render_figures import render
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
@@ -37,6 +38,8 @@ def main():
             shutil.rmtree(child)
         else:
             child.unlink()
+    # HTML is the diagram source; the upstream exporter creates portable SVGs.
+    render(DIST / "diagrams")
     sections = []
     for name in config["chapters"]:
         source = ROOT / name
@@ -118,6 +121,11 @@ def main():
             bundle.write(DIST / file, file)
         for svg in (DIST / "assets/figures").glob("*.svg"):
             bundle.write(svg, svg.relative_to(DIST))
+        for preview in sorted((DIST / "diagrams").glob("*.html")):
+            bundle.write(preview, preview.relative_to(DIST))
+        for name in ("scripts/render_figures.py", "scripts/vendor/diagram_design_export.py",
+                     "scripts/vendor/diagram-design-LICENSE.txt"):
+            bundle.write(ROOT / name, name)
         bundle.write(cover, config["cover"])
         for name in config["chapters"]:
             bundle.write(ROOT / name, name)

@@ -33,19 +33,19 @@ AI 已经能回答问题、操作工具，甚至在你离开之后继续工作�
 
 ## 阅读与下载
 
-当前版本：**[v0.5.0-complete-draft](https://github.com/mancbj/personal-agent-book/releases/tag/v0.5.0-complete-draft)** · 全书初稿审阅版 · 2026-10-10。**四篇正文、12 章、5 个附录已经齐全**，后续继续通读修订与更新产品快照。
+当前版本：**[v0.6.0-visual-edition](https://github.com/mancbj/personal-agent-book/releases/tag/v0.6.0-visual-edition)** · 全书初稿 · 图表修订版 · 2026-10-10。**四篇正文、12 章、5 个附录已经齐全**，后续继续通读修订与更新产品快照。
 
 <!-- RELEASE-DOWNLOADS-BEGIN -->
 | 阅读方式 | 入口 | 适合怎样使用 |
 | --- | --- | --- |
 | 在线阅读 | [GitHub Pages 全书](https://mancbj.github.io/personal-agent-book/) | 直接开始，使用目录跳转，手机和电脑均可阅读 |
-| PDF | [下载阅读版](https://github.com/mancbj/personal-agent-book/releases/download/v0.5.0-complete-draft/personal-agent-book.pdf) | 分页阅读，带封面、目录、书签与矢量图 |
-| 单页 HTML | [下载离线版](https://github.com/mancbj/personal-agent-book/releases/download/v0.5.0-complete-draft/personal-agent-book.html) | 一份文件保存全文、封面与图像，断网可读 |
-| 完整 Markdown | [下载全书 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.5.0-complete-draft/personal-agent-book.md) | 检索、摘录或用自己的编辑器阅读；图片需随包保存 |
-| 全套 ZIP | [下载全部文件](https://github.com/mancbj/personal-agent-book/releases/download/v0.5.0-complete-draft/personal-agent-book-v0.5.0-complete-draft.zip) | 同时获得各格式、分章源稿、封面、图像和来源记录 |
+| PDF | [下载阅读版](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.0-visual-edition/personal-agent-book.pdf) | 分页阅读，带封面、目录、书签与矢量图 |
+| 单页 HTML | [下载离线版](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.0-visual-edition/personal-agent-book.html) | 一份文件保存全文、封面与图像，断网可读 |
+| 完整 Markdown | [下载全书 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.0-visual-edition/personal-agent-book.md) | 检索、摘录或用自己的编辑器阅读；图片需随包保存 |
+| 全套 ZIP | [下载全部文件](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.0-visual-edition/personal-agent-book-v0.6.0-visual-edition.zip) | 同时获得各格式、分章源稿、封面、图像和来源记录 |
 <!-- RELEASE-DOWNLOADS-END -->
 
-[查看全部版本](https://github.com/mancbj/personal-agent-book/releases) · [本版文件校验值](https://github.com/mancbj/personal-agent-book/releases/download/v0.5.0-complete-draft/SHA256SUMS.txt)
+[查看全部版本](https://github.com/mancbj/personal-agent-book/releases) · [本版文件校验值](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.0-visual-edition/SHA256SUMS.txt)
 
 <a id="start-reading"></a>
 
@@ -98,12 +98,12 @@ AI 已经能回答问题、操作工具，甚至在你离开之后继续工作�
 
 ## 随书的图与工作表
 
-九张原创信息图帮助你看清概念、资源、工作循环、授权与未来。六套可复制工作表覆盖**选型、一周试用、任务委托、长期权限、暂停与迁移、异常与勘误**。另有四个教学案例，帮助把委托落到具体结果。
+十二张信息图帮助你看清概念、资源、工作循环、授权与未来；本版重绘原有九张，新增净时间收益瀑布图、任务状态图和迁移流程图。设计参考 [diagram-design](https://github.com/cathrynlavery/diagram-design) 的模板，沿用本书深绿与米白配色。六套可复制工作表覆盖**选型、一周试用、任务委托、长期权限、暂停与迁移、异常与勘误**。另有四个教学案例，帮助把委托落到具体结果。
 
-[浏览信息图](assets/figures/) · [复制工作表](book/appendix-c-worksheets.md) · [阅读委托案例](book/08-delegating-work.md)
+[独立 HTML 图表](https://mancbj.github.io/personal-agent-book/diagrams/) · [浏览 SVG](assets/figures/) · [复制工作表](book/appendix-c-worksheets.md) · [阅读委托案例](book/08-delegating-work.md)
 
 <details>
-<summary><strong>展开九张信息图索引</strong></summary>
+<summary><strong>展开十二张信息图索引</strong></summary>
 
 | 位置 | 信息图 |
 | --- | --- |
@@ -112,12 +112,14 @@ AI 已经能回答问题、操作工具，甚至在你离开之后继续工作�
 | 第 3 章 | [产品版图](assets/figures/03-product-landscape.svg) |
 | 第 5 章 | [本地、云端与混合的资源边界](assets/figures/05-resource-boundaries.svg) |
 | 第 6 章 | [代理工作循环](assets/figures/06-agent-cycle.svg) |
-| 第 7 章 | [选型路径](assets/figures/07-selection-path.svg) |
+| 第 7 章 | [选型路径](assets/figures/07-selection-path.svg) · [净时间收益](assets/figures/07-time-gain.svg) |
+| 第 8 章 | [任务状态与恢复](assets/figures/08-task-states.svg) |
 | 第 9 章 | [授权层次](assets/figures/09-permission-layers.svg) |
 | 第 10 章 | [演进历程](assets/figures/10-evolution.svg) |
 | 第 11 章 | [未来情景与验证信号](assets/figures/11-future-signals.svg) |
+| 第 12 章 | [迁移与重新授权](assets/figures/12-migration.svg) |
 
-HTML 内嵌图像，PDF 使用矢量图，原始 SVG 与封面随全套 ZIP 提供。
+HTML 内嵌图像，PDF 使用矢量图；SVG、独立图表 HTML、再生代码、许可说明与封面随全套 ZIP 提供。[图型选择与内容取舍](research/diagram-design-notes.md)。
 
 </details>
 
@@ -152,7 +154,7 @@ HTML 内嵌图像，PDF 使用矢量图，原始 SVG 与封面随全套 ZIP 提�
 
 - **内容勘误**：给出章节、原句、建议修改和可核对来源。
 - **任务体验**：记录日期、版本、套餐、地区、任务条件与结果，可使用[异常记录表](book/appendix-c-worksheets.md)。
-- **直接修改**：正文改 `book/`，图改 `assets/figures/`；提交前完成构建检查。较大结构调整先在 Issue 中说明。
+- **直接修改**：正文改 `book/`；图表内容与配色改 `scripts/render_figures.py`，运行后更新 `assets/figures/`；提交前完成构建检查。较大结构调整先在 Issue 中说明。
 
 正文以中文为主，必要术语首次出现时附英文。引用靠近所支持的结论，保留观察日期与证据边界。请勿提交密钥、凭证或未经许可的私人资料。
 

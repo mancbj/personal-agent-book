@@ -1,41 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="825" viewBox="0 0 960 825" role="img" aria-labelledby="title desc">
-<title id="title">持续办事：从目标到可核验结果</title><desc id="desc">计划、行动、观察、修正、验收构成循环；不符合验收时重新核查。模型参与判断，工具实施动作，运行时保存状态与调度。</desc>
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#216E69"/></marker></defs>
-<rect width="960" height="825" fill="#F5F1E8"/>
-<g font-family="Noto Sans CJK SC, sans-serif" fill="#18343F">
-<text x="36" y="55" font-size="33" font-weight="700" fill="#18343F">持续办事：从目标到可核验结果</text>
-<text x="36" y="99" font-size="23" font-weight="400" fill="#526774">输入：目标、背景、资源、授权与验收标准</text>
-<rect x="70" y="138" width="570" height="98" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="92" y="182" font-size="27" font-weight="700" fill="#216E69">1  计划</text>
-<text x="92" y="224" font-size="22" font-weight="400" fill="#18343F">确认条件，选择下一步</text>
-<path d="M355 237 L355 254" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="70" y="256" width="570" height="98" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="92" y="300" font-size="27" font-weight="700" fill="#216E69">2  行动</text>
-<text x="92" y="342" font-size="22" font-weight="400" fill="#18343F">调用获准工具，记录请求</text>
-<path d="M355 355 L355 372" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="70" y="374" width="570" height="98" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="92" y="418" font-size="27" font-weight="700" fill="#216E69">3  观察</text>
-<text x="92" y="460" font-size="22" font-weight="400" fill="#18343F">读取结果，核对外部状态</text>
-<path d="M355 473 L355 490" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="70" y="492" width="570" height="98" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="92" y="536" font-size="27" font-weight="700" fill="#216E69">4  修正</text>
-<text x="92" y="578" font-size="22" font-weight="400" fill="#18343F">根据变化调整，保留原边界</text>
-<path d="M355 591 L355 608" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="70" y="610" width="570" height="98" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="92" y="654" font-size="27" font-weight="700" fill="#216E69">5  验收</text>
-<text x="92" y="696" font-size="22" font-weight="400" fill="#18343F">符合标准才完成；否则继续核查</text>
-<rect x="687" y="138" width="243" height="390" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="709" y="182" font-size="27" font-weight="700" fill="#216E69">各部分的职责</text>
-<text x="709" y="224" font-size="22" font-weight="400" fill="#18343F">模型：参与判断</text>
-<text x="709" y="260" font-size="22" font-weight="400" fill="#18343F">工具：实施动作</text>
-<text x="709" y="296" font-size="22" font-weight="400" fill="#18343F">运行时：保存状态</text>
-<text x="709" y="332" font-size="22" font-weight="400" fill="#18343F">调度与执行控制</text>
-<text x="709" y="368" font-size="22" font-weight="400" fill="#18343F"></text>
-<text x="709" y="404" font-size="22" font-weight="400" fill="#18343F">碰到边界，暂停</text>
-<text x="709" y="440" font-size="22" font-weight="400" fill="#18343F">请求人的决定</text>
-<path d="M70 660 L36 660 L36 185 L68 185" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<text x="687" y="587" font-size="22" font-weight="400" fill="#526774">动作已提交</text>
-<text x="687" y="623" font-size="22" font-weight="400" fill="#526774">不等于结果已生效</text>
-<text x="70" y="785" font-size="23" font-weight="700" fill="#216E69">进度报告：已完成什么 · 等什么 · 下一步 · 需要谁决定</text>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="848" viewBox="0 0 960 848" role="img" aria-labelledby="06-agent-cycle-title 06-agent-cycle-desc" id="d-06-agent-cycle-root">
+<title id="06-agent-cycle-title">工作在循环中推进，状态持续留下</title>
+<desc id="06-agent-cycle-desc">代理在计划、行动、观察、修正和验收之间推进，每一步把必要记录写回共同任务状态，验收达标则结束，越界或不确定时暂停。</desc>
+<!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
+MIT License
+
+Copyright (c) 2025 Cathryn Lavery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<defs>
+      <style>#d-06-agent-cycle-root { color: #18343f; font-family: Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif; }
+      #d-06-agent-cycle-root .diagram-container { width:100%;overflow-x:auto }
+      #d-06-agent-cycle-root .diagram-container { overflow:visible }</style><marker id="d-06-agent-cycle-06-agent-cycle-neutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#526774"/></marker>
+<marker id="d-06-agent-cycle-06-agent-cycle-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#216e69"/></marker></defs>
+<rect x="0" y="0" width="960" height="848" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="40" y="48" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">PERSONAL AGENT  /  LOOP</text>
+<text x="40" y="100" fill="#18343f" font-size="32" font-weight="600" font-family="Noto Serif CJK SC, Songti SC, serif" text-anchor="start">工作在循环中推进，状态持续留下</text>
+<text x="40" y="140" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">模型参与判断，工具实施动作，运行时保存状态并控制执行。</text>
+<path d="M580.000 229.826 A240 240 0 0 1 680.440 316.000" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-06-agent-cycle-06-agent-cycle-neutral)"/>
+<path d="M480.000 264.000 L480.000 390.000" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-06-agent-cycle-06-agent-cycle-neutral)" stroke-dasharray="5 5" class="spoke"/>
+<path d="M719.165 428.000 A240 240 0 0 1 674.936 588.000" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-06-agent-cycle-06-agent-cycle-neutral)"/>
+<path d="M608.000 405.333 L589.692 411.436" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-06-agent-cycle-06-agent-cycle-neutral)" stroke-dasharray="5 5" class="spoke"/>
+<path d="M520.000 684.643 A240 240 0 0 1 440.000 684.643" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-06-agent-cycle-06-agent-cycle-neutral)"/>
+<path d="M580.000 588.000 L520.630 504.882" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-06-agent-cycle-06-agent-cycle-neutral)" stroke-dasharray="5 5" class="spoke"/>
+<path d="M285.064 588.000 A240 240 0 0 1 240.835 428.000" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-06-agent-cycle-06-agent-cycle-neutral)"/>
+<path d="M380.000 588.000 L439.370 504.882" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-06-agent-cycle-06-agent-cycle-neutral)" stroke-dasharray="5 5" class="spoke"/>
+<path d="M279.560 316.000 A240 240 0 0 1 380.000 229.826" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-06-agent-cycle-06-agent-cycle-neutral)"/>
+<path d="M352.000 405.333 L370.308 411.436" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-06-agent-cycle-06-agent-cycle-neutral)" stroke-dasharray="5 5" class="spoke"/>
+<rect x="380" y="152" width="200" height="112" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="400" y="184" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">1 计划</text>
+<text x="400" y="220" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">条件与下一步</text>
+<rect x="608" y="316" width="200" height="112" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="628" y="348" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">2 行动</text>
+<text x="628" y="384" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">获准工具与请求</text>
+<rect x="520" y="588" width="200" height="112" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="540" y="620" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">3 观察</text>
+<text x="540" y="656" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">结果与外部状态</text>
+<rect x="240" y="588" width="200" height="112" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="260" y="620" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">4 修正</text>
+<text x="260" y="656" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">变化与原有边界</text>
+<rect x="152" y="316" width="200" height="112" rx="6" fill="#e5eee9" stroke="#216e69" stroke-width="1.2"/>
+<text x="172" y="348" fill="#216e69" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">5 验收</text>
+<text x="172" y="384" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">依据标准核对</text>
+<rect x="376" y="396" width="208" height="104" rx="6" fill="#18343f" stroke="#18343f" stroke-width="1.2"/>
+<text x="396" y="428" fill="#f5f1e8" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">共同任务状态</text>
+<text x="396" y="464" fill="#f5f1e8" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">证据 · 待办 · 回执</text>
+<text x="40" y="728" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">输入：目标、背景、资源、授权与验收标准。</text>
+<line x1="40" y1="748" x2="920" y2="748" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="40" y="784" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">实线：推进工作；虚线：记录写回。达到验收则结束，否则继续核查。</text>
+<text x="40" y="816" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">碰到边界或条件未知时暂停，交回人的决定，不自行扩大权限。</text>
 </svg>

@@ -1,39 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="970" viewBox="0 0 960 970" role="img" aria-labelledby="title desc">
-<title id="title">托付边界：权限逐层，身份分开</title><desc id="desc">读取、起草、修改、发送、付款与承诺逐层提高；工作、生活、财务、公开表达分别设置身份与权限。角色名称不构成隔离，异常要停止并核对实际结果。</desc>
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#216E69"/></marker></defs>
-<rect width="960" height="970" fill="#F5F1E8"/>
-<g font-family="Noto Sans CJK SC, sans-serif" fill="#18343F">
-<text x="36" y="55" font-size="33" font-weight="700" fill="#18343F">托付边界：权限逐层，身份分开</text>
-<text x="36" y="99" font-size="23" font-weight="400" fill="#526774">每层都限定资源、对象、时间与有效期</text>
-<rect x="36" y="140" width="888" height="96" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="58" y="184" font-size="27" font-weight="700" fill="#216E69">读取</text>
-<text x="58" y="226" font-size="22" font-weight="400" fill="#18343F">只看获准资料；仍要检查外发</text>
-<path d="M480 237 L480 251" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="36" y="253" width="888" height="96" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="58" y="297" font-size="27" font-weight="700" fill="#216E69">起草</text>
-<text x="58" y="339" font-size="22" font-weight="400" fill="#18343F">生成方案与草稿；不改变外部状态</text>
-<path d="M480 350 L480 364" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="36" y="366" width="888" height="96" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="58" y="410" font-size="27" font-weight="700" fill="#216E69">修改</text>
-<text x="58" y="452" font-size="22" font-weight="400" fill="#18343F">限定文件与动作；保留差异与恢复</text>
-<path d="M480 463 L480 477" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="36" y="479" width="888" height="96" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="58" y="523" font-size="27" font-weight="700" fill="#216E69">发送</text>
-<text x="58" y="565" font-size="22" font-weight="400" fill="#18343F">核对账号、收件人、渠道与正文</text>
-<path d="M480 576 L480 590" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="36" y="592" width="888" height="96" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="58" y="636" font-size="27" font-weight="700" fill="#216E69">付款／承诺</text>
-<text x="58" y="678" font-size="22" font-weight="400" fill="#18343F">核对金额、订单、对象与重复执行</text>
-<text x="36" y="745" font-size="26" font-weight="700" fill="#216E69">不同范围，分别设置身份与权限</text>
-<rect x="36" y="774" width="207" height="65" rx="12" fill="#E4EFE7"/>
-<text x="74" y="816" font-size="25" font-weight="700" fill="#216E69">工作</text>
-<rect x="263" y="774" width="207" height="65" rx="12" fill="#E4EFE7"/>
-<text x="301" y="816" font-size="25" font-weight="700" fill="#216E69">生活</text>
-<rect x="490" y="774" width="207" height="65" rx="12" fill="#E4EFE7"/>
-<text x="528" y="816" font-size="25" font-weight="700" fill="#216E69">财务</text>
-<rect x="717" y="774" width="207" height="65" rx="12" fill="#E4EFE7"/>
-<text x="755" y="816" font-size="25" font-weight="700" fill="#216E69">公开表达</text>
-<text x="36" y="892" font-size="22" font-weight="400" fill="#526774">角色名称 ≠ 权限隔离；断开连接 ≠ 删除历史副本。</text>
-<text x="36" y="929" font-size="22" font-weight="400" fill="#526774">异常时：停新动作 → 收回访问 → 保存事实 → 核对结果。</text>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="800" viewBox="0 0 960 800" role="img" aria-labelledby="09-permission-layers-title 09-permission-layers-desc" id="d-09-permission-layers-root">
+<title id="09-permission-layers-title">每一层动作，都要单独授权</title>
+<desc id="09-permission-layers-desc">读取、起草、修改、发送以及付款承诺五类动作分别限定对象、资源与有效期，工作、生活、财务和公开表达的身份权限另行隔离。</desc>
+<!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
+MIT License
+
+Copyright (c) 2025 Cathryn Lavery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<defs>
+      <style>#d-09-permission-layers-root { color: #18343f; font-family: Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif; }
+      #d-09-permission-layers-root .diagram-container { width:100%;overflow-x:auto }
+      #d-09-permission-layers-root .diagram-container { overflow:visible }</style><marker id="d-09-permission-layers-09-permission-layers-neutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#526774"/></marker>
+<marker id="d-09-permission-layers-09-permission-layers-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#216e69"/></marker></defs>
+<rect x="0" y="0" width="960" height="800" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="40" y="48" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">PERSONAL AGENT  /  LAYER STACK</text>
+<text x="40" y="100" fill="#18343f" font-size="32" font-weight="600" font-family="Noto Serif CJK SC, Songti SC, serif" text-anchor="start">每一层动作，都要单独授权</text>
+<text x="40" y="140" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">动作影响逐步加大；已有低层权限不自动获得更高层权限。</text>
+<rect x="40" y="184" width="880" height="76" rx="0" fill="#fffdf8" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="60" y="230" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">01</text>
+<text x="128" y="230" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">读取</text>
+<text x="352" y="230" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">获准资料；同时核对模型与外发</text>
+<rect x="40" y="264" width="880" height="76" rx="0" fill="#fffdf8" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="60" y="310" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">02</text>
+<text x="128" y="310" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">起草</text>
+<text x="352" y="310" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">方案与草稿；不改变外部状态</text>
+<rect x="40" y="344" width="880" height="76" rx="0" fill="#fffdf8" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="60" y="390" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">03</text>
+<text x="128" y="390" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">修改</text>
+<text x="352" y="390" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">限定文件与动作；保留差异与恢复</text>
+<rect x="40" y="424" width="880" height="76" rx="0" fill="#fffdf8" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="60" y="470" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">04</text>
+<text x="128" y="470" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">发送</text>
+<text x="352" y="470" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">核对账号、对象、渠道与正文</text>
+<rect x="40" y="504" width="880" height="76" rx="0" fill="#e5eee9" stroke="#216e69" stroke-width="1.2"/>
+<text x="60" y="550" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">05</text>
+<text x="128" y="550" fill="#216e69" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">付款／承诺</text>
+<text x="352" y="550" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">金额、订单、对象；防止重复执行</text>
+<text x="40" y="640" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">身份另设</text>
+<text x="232" y="640" fill="#18343f" font-size="24" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">工作  /  生活  /  财务  /  公开表达</text>
+<text x="232" y="680" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">角色名称不等于权限隔离，按真实共享范围检查。</text>
+<line x1="40" y1="700" x2="920" y2="700" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="40" y="736" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">每层限定资源、对象、动作、额度、时间与有效期。</text>
+<text x="40" y="768" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">异常时：停止新动作 → 收回访问 → 保存事实 → 核对结果。</text>
 </svg>

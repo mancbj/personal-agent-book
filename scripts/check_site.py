@@ -16,6 +16,8 @@ def main():
     for line in (DIST / "SHA256SUMS.txt").read_text().splitlines():
         digest, filename = line.split("  ", 1)
         expected[filename] = digest
+    for diagram in sorted((DIST / "diagrams").glob("*.html")):
+        expected[diagram.relative_to(DIST).as_posix()] = hashlib.sha256(diagram.read_bytes()).hexdigest()
     for attempt in range(12):
         try:
             verified = []

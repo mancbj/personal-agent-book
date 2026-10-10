@@ -1,34 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="740" viewBox="0 0 960 740" role="img" aria-labelledby="title desc">
-<title id="title">一次通知如何变成办完的事</title><desc id="desc">用户说明目标和边界；代理检查航班变化对酒店、接机、会议的影响，准备获准动作，等待回应，核对结果并交还重要决定。</desc>
-<rect width="960" height="740" rx="24" fill="#f5f1e8"/>
-<g font-family="Noto Sans CJK SC, sans-serif" fill="#18343f">
-<text x="40" y="48" font-size="18" fill="#216e69" font-weight="700">01 / 持续委托</text>
-<text x="40" y="98" font-size="34" fill="#18343f" font-weight="700">从一封通知，到一件办完的事</text>
-<rect x="40" y="128" width="880" height="116" rx="14" fill="#e5eee9" stroke="#d4dedb"/>
-<text x="64" y="171" font-size="27" fill="#216e69" font-weight="700">人：给出目标与边界</text>
-<text x="64" y="212" font-size="23" fill="#536773" font-weight="400">调整周五安排；先准备草稿；不取消订单、不付款</text>
-<rect x="40" y="274" width="430" height="142" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="64" y="315" font-size="26" fill="#18343f" font-weight="700">察觉变化</text>
-<text x="64" y="353" font-size="22" fill="#536773" font-weight="400">航班推迟三小时</text>
-<text x="64" y="385" font-size="22" fill="#536773" font-weight="400">找出关联安排</text>
-<rect x="490" y="274" width="430" height="142" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="514" y="315" font-size="26" fill="#18343f" font-weight="700">整理影响</text>
-<text x="514" y="353" font-size="22" fill="#536773" font-weight="400">酒店 · 接机 · 会议</text>
-<text x="514" y="385" font-size="22" fill="#536773" font-weight="400">确认约束与选项</text>
-<rect x="40" y="444" width="430" height="142" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="64" y="485" font-size="26" fill="#18343f" font-weight="700">推进已授权工作</text>
-<text x="64" y="523" font-size="22" fill="#536773" font-weight="400">准备、确认、执行</text>
-<text x="64" y="555" font-size="22" fill="#536773" font-weight="400">保留等待中的事项</text>
-<rect x="490" y="444" width="430" height="142" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="514" y="485" font-size="26" fill="#18343f" font-weight="700">带回结果与决定</text>
-<text x="514" y="523" font-size="22" fill="#536773" font-weight="400">核对实际改变</text>
-<text x="514" y="555" font-size="22" fill="#536773" font-weight="400">不确定时交还控制</text>
-<text x="464" y="353" font-size="28" fill="#216e69" font-weight="400">→</text>
-<text x="689" y="426" font-size="28" fill="#216e69" font-weight="400">↓</text>
-<text x="240" y="426" font-size="28" fill="#216e69" font-weight="400">↓</text>
-<text x="464" y="522" font-size="28" fill="#216e69" font-weight="400">→</text>
-<rect x="40" y="616" width="880" height="80" rx="14" fill="#18343f" stroke="#18343f"/>
-<text x="62" y="647" font-size="24" fill="#ffffff" font-weight="700">核验：什么已完成？什么仍在等待？哪件事需要我决定？</text>
-<text x="62" y="678" font-size="19" fill="#cadcd9" font-weight="400">示意分工，不是任何产品的完整实测流程。</text>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="840" viewBox="0 0 960 840" role="img" aria-labelledby="01-handoff-title 01-handoff-desc" id="d-01-handoff-root">
+<title id="01-handoff-title">从一封通知，到一件办完的事</title>
+<desc id="01-handoff-desc">人设定目标和边界，代理整理航班变更的影响并等待回复，重要动作须确认，结果经核验后才交付。</desc>
+<!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
+MIT License
+
+Copyright (c) 2025 Cathryn Lavery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<defs>
+      <style>#d-01-handoff-root { color: #18343f; font-family: Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif; }
+      #d-01-handoff-root .diagram-container { width:100%;overflow-x:auto }
+      #d-01-handoff-root .diagram-container { overflow:visible }</style><marker id="d-01-handoff-01-handoff-neutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#526774"/></marker>
+<marker id="d-01-handoff-01-handoff-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#216e69"/></marker></defs>
+<rect x="0" y="0" width="960" height="840" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="40" y="48" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">PERSONAL AGENT  /  SWIMLANE</text>
+<text x="40" y="100" fill="#18343f" font-size="32" font-weight="600" font-family="Noto Serif CJK SC, Songti SC, serif" text-anchor="start">从一封通知，到一件办完的事</text>
+<text x="40" y="140" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">三条泳道区分责任；等待回复与交还决定都属于任务。</text>
+<line x1="40" y1="184" x2="920" y2="184" stroke="#c5d0ca" stroke-width="1.2"/>
+<line x1="40" y1="364" x2="920" y2="364" stroke="#c5d0ca" stroke-width="1.2"/>
+<line x1="40" y1="584" x2="920" y2="584" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="40" y="244" fill="#18343f" font-size="20" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">你</text>
+<text x="40" y="276" fill="#18343f" font-size="20" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">目标与决定</text>
+<text x="40" y="436" fill="#18343f" font-size="20" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">代理</text>
+<text x="40" y="468" fill="#18343f" font-size="20" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">准备与跟进</text>
+<text x="40" y="652" fill="#18343f" font-size="20" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">外部服务</text>
+<text x="40" y="684" fill="#18343f" font-size="20" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">实际回应</text>
+<path d="M268 320 V396" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-01-handoff-01-handoff-neutral)"/>
+<path d="M380 448 H424" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-01-handoff-01-handoff-neutral)"/>
+<path d="M536 508 V612" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-01-handoff-01-handoff-neutral)" stroke-dasharray="5 5"/>
+<path d="M648 656 H680 Q688 656 688 648 V488 Q688 480 696 480 H720" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-01-handoff-01-handoff-neutral)" stroke-dasharray="5 5"/>
+<path d="M824 404 V336" fill="none" stroke="#216e69" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-01-handoff-01-handoff-accent)"/>
+<rect x="696.0" y="547" width="96" height="28" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="744" y="568" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">收到回复</text>
+<rect x="738.0" y="355" width="76" height="28" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="776" y="376" fill="#216e69" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">需确认</text>
+<rect x="156" y="208" width="224" height="112" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="176" y="240" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">目标与边界</text>
+<text x="176" y="276" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">保留原订单</text>
+<text x="176" y="308" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">先准备，不付款</text>
+<rect x="156" y="396" width="224" height="112" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="176" y="428" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">察觉变化</text>
+<text x="176" y="464" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">航班推迟三小时</text>
+<text x="176" y="496" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">找出关联安排</text>
+<rect x="424" y="396" width="224" height="112" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="444" y="428" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">整理与等待</text>
+<text x="444" y="464" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">酒店 · 接机 · 会议</text>
+<text x="444" y="496" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">记录草稿与待办</text>
+<rect x="424" y="612" width="224" height="88" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="444" y="644" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">真实回应</text>
+<text x="444" y="680" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">客服确认或拒绝</text>
+<rect x="720" y="208" width="200" height="128" rx="6" fill="#e5eee9" stroke="#216e69" stroke-width="1.2"/>
+<text x="740" y="240" fill="#216e69" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">重要决定</text>
+<text x="740" y="276" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">发送、改签、付款</text>
+<text x="740" y="308" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">分别确认</text>
+<rect x="720" y="404" width="200" height="128" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="740" y="436" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">核对并交付</text>
+<text x="740" y="472" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">获准后再行动</text>
+<text x="740" y="504" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">完成／等待／待定</text>
+<line x1="40" y1="740" x2="920" y2="740" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="40" y="776" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">按获准范围推进；请求已发出，不代表外部结果已生效。</text>
+<text x="40" y="808" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">作者教学示意，不是某一产品的完整实测流程。</text>
 </svg>

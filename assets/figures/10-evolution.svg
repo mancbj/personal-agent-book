@@ -1,53 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1080" viewBox="0 0 1120 1080" role="img" aria-labelledby="title desc">
-<title id="title">个人代理的演进：不同节点，组件汇合</title>
-<desc id="desc">按行阅读精选历史节点，区分愿景、研究、产品、测试和能力与协议。1987 年概念影片，1994 年个人软件代理研究，2003 年 CALO，2011 至 2014 年移动与家庭助手，2015 年 M 人机代办试验，2022 至 2024 年行动循环与连接能力。当下本地、云端和混合并行，不表示直接祖先关系或唯一诞生日。</desc>
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#216E69"/></marker></defs>
-<rect width="1120" height="1080" fill="#F5F1E8"/>
-<g font-family="Noto Sans CJK SC, sans-serif" fill="#18343F">
-<text x="36" y="57" font-size="35" font-weight="700" fill="#18343F">个人代理的演进：不同节点，组件汇合</text>
-<text x="36" y="103" font-size="24" font-weight="400" fill="#526774">精选节点按行阅读；日期对应不同类型的事件</text>
-<rect x="30" y="140" width="510" height="168" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="52" y="183" font-size="28" font-weight="700" fill="#216E69">1987 · 愿景</text>
-<text x="52" y="224" font-size="24" font-weight="400" fill="#18343F">Knowledge Navigator 概念影片</text>
-<text x="52" y="259" font-size="24" font-weight="400" fill="#18343F">把对话与协作放进未来场景</text>
-<rect x="580" y="140" width="510" height="168" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="602" y="183" font-size="28" font-weight="700" fill="#216E69">1994 · 研究</text>
-<text x="602" y="224" font-size="24" font-weight="400" fill="#18343F">Maes：个人软件代理</text>
-<text x="602" y="259" font-size="24" font-weight="400" fill="#18343F">关注减轻工作与信息过载</text>
-<rect x="30" y="330" width="510" height="200" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="52" y="373" font-size="28" font-weight="700" fill="#216E69">2003 起 · 研究</text>
-<text x="52" y="414" font-size="24" font-weight="400" fill="#18343F">CALO：学习、组织与执行</text>
-<text x="52" y="449" font-size="24" font-weight="400" fill="#18343F">研究成果参与 Siri 的孵化</text>
-<text x="52" y="484" font-size="24" font-weight="400" fill="#18343F">研究目标 ≠ 消费产品全部能力</text>
-<rect x="580" y="330" width="510" height="200" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="602" y="373" font-size="28" font-weight="700" fill="#216E69">2011—2014 · 产品节点</text>
-<text x="602" y="414" font-size="24" font-weight="400" fill="#18343F">2011 Siri 集成到 iPhone 4S</text>
-<text x="602" y="449" font-size="24" font-weight="400" fill="#18343F">2012 Google Now 主动提示</text>
-<text x="602" y="484" font-size="24" font-weight="400" fill="#18343F">2014 Echo / Alexa 家庭语音入口</text>
-<rect x="30" y="552" width="510" height="200" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="52" y="595" font-size="28" font-weight="700" fill="#216E69">2015 · 产品试验</text>
-<text x="52" y="636" font-size="24" font-weight="400" fill="#18343F">Messenger 中的 M</text>
-<text x="52" y="671" font-size="24" font-weight="400" fill="#18343F">真人与 AI 共同提供代办</text>
-<text x="52" y="706" font-size="24" font-weight="400" fill="#18343F">人机混合 ≠ 本地／云端混合</text>
-<rect x="580" y="552" width="510" height="200" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="602" y="595" font-size="28" font-weight="700" fill="#216E69">2022—2024 · 能力与协议</text>
-<text x="602" y="636" font-size="24" font-weight="400" fill="#18343F">2022 ReAct：行动与观察</text>
-<text x="602" y="671" font-size="24" font-weight="400" fill="#18343F">2023：模型函数调用接口</text>
-<text x="602" y="706" font-size="24" font-weight="400" fill="#18343F">2024：电脑操作测试与 MCP</text>
-<rect x="30" y="777" width="1060" height="119" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="52" y="820" font-size="28" font-weight="700" fill="#216E69">组件组合：理解、工具、记忆与状态、持续运行、权限</text>
-<text x="52" y="861" font-size="24" font-weight="400" fill="#18343F">下方是截至 2026-10 的部署归纳，不是完整项目谱系。</text>
-<path d="M205 898 L205 922" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M560 898 L560 922" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M915 898 L915 922" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="30" y="926" width="340" height="122" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="52" y="969" font-size="28" font-weight="700" fill="#216E69">本地派</text>
-<text x="52" y="1010" font-size="24" font-weight="400" fill="#18343F">靠近设备与私有资源</text>
-<rect x="390" y="926" width="340" height="122" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="412" y="969" font-size="28" font-weight="700" fill="#216E69">云端派</text>
-<text x="412" y="1010" font-size="24" font-weight="400" fill="#18343F">托管环境与持续服务</text>
-<rect x="750" y="926" width="340" height="122" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="772" y="969" font-size="28" font-weight="700" fill="#216E69">交集与混合</text>
-<text x="772" y="1010" font-size="24" font-weight="400" fill="#18343F">托管开放运行时等</text>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1040" viewBox="0 0 960 1040" role="img" aria-labelledby="10-evolution-title 10-evolution-desc" id="d-10-evolution-root">
+<title id="10-evolution-title">组件逐步汇合，路线继续并行</title>
+<desc id="10-evolution-desc">三个分段时间轴按真实年份间隔列出概念愿景、代理研究、消费产品以及行动和工具协议节点；分段采用各自刻度，不代表连续或单线演进。</desc>
+<!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
+MIT License
+
+Copyright (c) 2025 Cathryn Lavery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<defs>
+      <style>#d-10-evolution-root { color: #18343f; font-family: Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif; }
+      #d-10-evolution-root .diagram-container { width:100%;overflow-x:auto }
+      #d-10-evolution-root .diagram-container { overflow:visible }</style><marker id="d-10-evolution-10-evolution-neutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#526774"/></marker>
+<marker id="d-10-evolution-10-evolution-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#216e69"/></marker></defs>
+<rect x="0" y="0" width="960" height="1040" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="40" y="48" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">PERSONAL AGENT  /  TIMELINE</text>
+<text x="40" y="100" fill="#18343f" font-size="32" font-weight="600" font-family="Noto Serif CJK SC, Songti SC, serif" text-anchor="start">组件逐步汇合，路线继续并行</text>
+<text x="40" y="140" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">日期对应不同类型的事件；三段独立刻度，间隔按真实年份绘制。</text>
+<text x="40" y="192" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">1987—2003</text>
+<line x1="80" y1="320" x2="880" y2="320" stroke="#526774" stroke-width="1.2"/>
+<circle cx="80.0" cy="320" r="5" fill="#18343f"/>
+<line x1="80.0" y1="320" x2="80.0" y2="296" stroke="#526774" stroke-width="1.2"/>
+<text x="72.0" y="224" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">1987 · 愿景</text>
+<text x="72.0" y="256" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">Knowledge Navigator</text>
+<text x="72.0" y="284" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">对话与协作的概念影片</text>
+<circle cx="430.0" cy="320" r="5" fill="#18343f"/>
+<line x1="430.0" y1="320" x2="430.0" y2="344" stroke="#526774" stroke-width="1.2"/>
+<text x="430.0" y="364" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">1994 · 研究</text>
+<text x="430.0" y="396" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">Maes：个人软件代理</text>
+<text x="430.0" y="424" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">减轻工作与信息过载</text>
+<circle cx="880.0" cy="320" r="5" fill="#18343f"/>
+<line x1="880.0" y1="320" x2="880.0" y2="296" stroke="#526774" stroke-width="1.2"/>
+<text x="888.0" y="224" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">2003 · 研究启动</text>
+<text x="888.0" y="256" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">CALO</text>
+<text x="888.0" y="284" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">学习、组织与执行</text>
+<text x="40" y="456" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">2011—2015</text>
+<line x1="80" y1="584" x2="880" y2="584" stroke="#526774" stroke-width="1.2"/>
+<circle cx="80.0" cy="584" r="5" fill="#18343f"/>
+<line x1="80.0" y1="584" x2="80.0" y2="560" stroke="#526774" stroke-width="1.2"/>
+<text x="72.0" y="488" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">2011 · 产品</text>
+<text x="72.0" y="520" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">Siri / iPhone 4S</text>
+<circle cx="280.0" cy="584" r="5" fill="#18343f"/>
+<line x1="280.0" y1="584" x2="280.0" y2="608" stroke="#526774" stroke-width="1.2"/>
+<text x="280.0" y="628" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">2012 · 产品</text>
+<text x="280.0" y="660" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">Google Now</text>
+<text x="280.0" y="688" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">主动提示</text>
+<circle cx="680.0" cy="584" r="5" fill="#18343f"/>
+<line x1="680.0" y1="584" x2="680.0" y2="560" stroke="#526774" stroke-width="1.2"/>
+<text x="680.0" y="488" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">2014 · 产品</text>
+<text x="680.0" y="520" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">Echo / Alexa</text>
+<circle cx="880.0" cy="584" r="5" fill="#18343f"/>
+<line x1="880.0" y1="584" x2="880.0" y2="608" stroke="#526774" stroke-width="1.2"/>
+<text x="888.0" y="628" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">2015 · 产品试验</text>
+<text x="888.0" y="660" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">Messenger M</text>
+<text x="888.0" y="688" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">真人与 AI 共同代办</text>
+<text x="40" y="720" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">2022—2024</text>
+<line x1="80" y1="848" x2="880" y2="848" stroke="#526774" stroke-width="1.2"/>
+<circle cx="80.0" cy="848" r="5" fill="#18343f"/>
+<line x1="80.0" y1="848" x2="80.0" y2="824" stroke="#526774" stroke-width="1.2"/>
+<text x="72.0" y="752" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">2022 · 研究</text>
+<text x="72.0" y="784" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">ReAct</text>
+<text x="72.0" y="812" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">行动与观察</text>
+<circle cx="480.0" cy="848" r="5" fill="#18343f"/>
+<line x1="480.0" y1="848" x2="480.0" y2="872" stroke="#526774" stroke-width="1.2"/>
+<text x="480.0" y="892" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">2023 · 接口</text>
+<text x="480.0" y="924" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">模型函数调用</text>
+<circle cx="880.0" cy="848" r="5" fill="#216e69"/>
+<line x1="880.0" y1="848" x2="880.0" y2="824" stroke="#526774" stroke-width="1.2"/>
+<text x="888.0" y="752" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">2024 · 能力／协议</text>
+<text x="888.0" y="784" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">电脑操作测试 · MCP</text>
+<line x1="40" y1="940" x2="920" y2="940" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="40" y="976" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">本地派、云端派与混合部署，是当下资源分工，不是技术优劣的终点排序。</text>
+<text x="40" y="1008" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">研究目标不等于消费产品能力；人机混合不等于本地／云端混合。</text>
 </svg>

@@ -1,49 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1080" viewBox="0 0 960 1080" role="img" aria-labelledby="title desc">
-<title id="title">选型路径：先任务，后产品</title><desc id="desc">逐项检查离线与外发要求、本机资源、持续跟进和维护责任；据条件选本地、受控环境、云端托管或混合，最后用一周同样任务验证。</desc>
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#216E69"/></marker></defs>
-<rect width="960" height="1080" fill="#F5F1E8"/>
-<g font-family="Noto Sans CJK SC, sans-serif" fill="#18343F">
-<text x="36" y="55" font-size="33" font-weight="700" fill="#18343F">选型路径：先任务，后产品</text>
-<text x="36" y="99" font-size="23" font-weight="400" fill="#526774">每项约束都要满足；路径可以组合</text>
-<rect x="36" y="140" width="530" height="120" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="58" y="184" font-size="27" font-weight="700" fill="#216E69">1  必须离线或不得外发？</text>
-<text x="58" y="226" font-size="22" font-weight="400" fill="#18343F">检查模型、工具、索引与日志</text>
-<rect x="650" y="140" width="274" height="152" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="672" y="184" font-size="27" font-weight="700" fill="#216E69">有硬约束</text>
-<text x="672" y="226" font-size="22" font-weight="400" fill="#18343F">离线：全本地依赖</text>
-<text x="672" y="262" font-size="22" font-weight="400" fill="#18343F">不外发：受控链路</text>
-<path d="M566 204 L647 204" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M295 261 L295 321" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="36" y="324" width="530" height="120" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="58" y="368" font-size="27" font-weight="700" fill="#216E69">2  需要本机、内网或硬件？</text>
-<text x="58" y="410" font-size="22" font-weight="400" fill="#18343F">核对真实资源与执行接口</text>
-<rect x="650" y="324" width="274" height="152" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="672" y="368" font-size="27" font-weight="700" fill="#216E69">需要本地资源</text>
-<text x="672" y="410" font-size="22" font-weight="400" fill="#18343F">本地执行</text>
-<text x="672" y="446" font-size="22" font-weight="400" fill="#18343F">或含本地端的混合</text>
-<path d="M566 388 L647 388" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M295 445 L295 505" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="36" y="508" width="530" height="120" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="58" y="552" font-size="27" font-weight="700" fill="#216E69">3  需要跨时间持续跟进？</text>
-<text x="58" y="594" font-size="22" font-weight="400" fill="#18343F">核对状态、触发、通知与恢复</text>
-<rect x="650" y="508" width="274" height="152" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="672" y="552" font-size="27" font-weight="700" fill="#216E69">不需要持续性</text>
-<text x="672" y="594" font-size="22" font-weight="400" fill="#18343F">一次性任务工具</text>
-<text x="672" y="630" font-size="22" font-weight="400" fill="#18343F">或固定规则即可</text>
-<path d="M566 572 L647 572" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M295 629 L295 689" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="36" y="692" width="530" height="120" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="58" y="736" font-size="27" font-weight="700" fill="#216E69">4  愿意承担长期维护？</text>
-<text x="58" y="778" font-size="22" font-weight="400" fill="#18343F">在满足前面约束后决定</text>
-<rect x="650" y="692" width="274" height="152" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="672" y="736" font-size="27" font-weight="700" fill="#216E69">比较责任与成本</text>
-<text x="672" y="778" font-size="22" font-weight="400" fill="#18343F">托管：减少运维</text>
-<text x="672" y="814" font-size="22" font-weight="400" fill="#18343F">自托管：自主配置</text>
-<path d="M566 756 L647 756" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M295 813 L295 893" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="36" y="896" width="888" height="148" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="58" y="940" font-size="27" font-weight="700" fill="#216E69">一周小试，验证最后的选择</text>
-<text x="58" y="982" font-size="22" font-weight="400" fill="#18343F">同样的任务与验收：结果、主动分钟、等待、介入、金钱。</text>
-<text x="58" y="1018" font-size="22" font-weight="400" fill="#18343F">省了多少操心，再决定扩大、组合或停止。</text>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1000" viewBox="0 0 960 1000" role="img" aria-labelledby="07-selection-path-title 07-selection-path-desc" id="d-07-selection-path-root">
+<title id="07-selection-path-title">选型是约束叠加，不是一题定阵营</title>
+<desc id="07-selection-path-desc">依次核对资料边界、执行资源、持续性和维护责任，任何条件都不能被后续偏好覆盖，再以权限范围及一周小试验证候选方案。</desc>
+<!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
+MIT License
+
+Copyright (c) 2025 Cathryn Lavery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<defs>
+      <style>#d-07-selection-path-root { color: #18343f; font-family: Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif; }
+      #d-07-selection-path-root .diagram-container { width:100%;overflow-x:auto }
+      #d-07-selection-path-root .diagram-container { overflow:visible }</style><marker id="d-07-selection-path-07-selection-path-neutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#526774"/></marker>
+<marker id="d-07-selection-path-07-selection-path-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#216e69"/></marker></defs>
+<rect x="0" y="0" width="960" height="1000" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="40" y="48" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">PERSONAL AGENT  /  PROCESS</text>
+<text x="40" y="100" fill="#18343f" font-size="32" font-weight="600" font-family="Noto Serif CJK SC, Songti SC, serif" text-anchor="start">选型是约束叠加，不是一题定阵营</text>
+<text x="40" y="140" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">四次筛选都要做；右侧是缩小候选的条件，不是提前结束。</text>
+<path d="M268 296 V348" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-07-selection-path-07-selection-path-neutral)"/>
+<path d="M268 460 V512" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-07-selection-path-07-selection-path-neutral)"/>
+<path d="M268 624 V676" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-07-selection-path-07-selection-path-neutral)"/>
+<path d="M268 788 V836 Q268 844 276 844 H480 V864" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-07-selection-path-07-selection-path-neutral)"/>
+<path d="M496 240 H584" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="516" y="228" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">筛选</text>
+<path d="M496 404 H584" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="516" y="392" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">筛选</text>
+<path d="M496 568 H584" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="516" y="556" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">筛选</text>
+<path d="M496 732 H584" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="516" y="720" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">筛选</text>
+<rect x="40" y="184" width="456" height="112" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="60" y="216" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">资料可以去哪里？</text>
+<text x="60" y="252" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">离线或不得外发</text>
+<text x="460" y="212" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">01</text>
+<text x="604" y="232" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">离线：全本地依赖</text>
+<text x="604" y="268" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">不外发：受控链路</text>
+<rect x="40" y="348" width="456" height="112" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="60" y="380" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">动作发生在哪里？</text>
+<text x="60" y="416" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">依赖本机／内网／硬件</text>
+<text x="460" y="376" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">02</text>
+<text x="604" y="396" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">保留本地执行</text>
+<text x="604" y="432" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">或含本地端的混合</text>
+<rect x="40" y="512" width="456" height="112" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="60" y="544" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">需要跨时间跟进吗？</text>
+<text x="60" y="580" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">检查触发与状态</text>
+<text x="460" y="540" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">03</text>
+<text x="604" y="560" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">一次性：工具／规则</text>
+<text x="604" y="596" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">持续性：等待与恢复</text>
+<rect x="40" y="676" width="456" height="112" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="60" y="708" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">谁承担长期维护？</text>
+<text x="60" y="744" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">前面硬约束仍有效</text>
+<text x="460" y="704" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">04</text>
+<text x="604" y="724" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">托管：核对服务边界</text>
+<text x="604" y="760" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">自托管：记录维护成本</text>
+<rect x="40" y="864" width="880" height="68" rx="6" fill="#e5eee9" stroke="#216e69" stroke-width="1.2"/>
+<text x="60" y="896" fill="#216e69" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">权限能否缩小？再用一周小试验收候选方案</text>
+<line x1="40" y1="932" x2="920" y2="932" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="40" y="968" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">同等任务、同等验收：结果、主动分钟、等待、介入、金钱与维护。</text>
 </svg>

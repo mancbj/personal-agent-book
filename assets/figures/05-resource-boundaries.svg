@@ -1,41 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="880" viewBox="0 0 960 880" role="img" aria-labelledby="title desc">
-<title id="title">资源边界：本地、云端与混合</title><desc id="desc">本地靠近应用、私有文件、内网和硬件；云端提供托管环境；混合连接两端。运行位置、模型位置和数据流分别检查。</desc>
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#216E69"/></marker></defs>
-<rect width="960" height="880" fill="#F5F1E8"/>
-<g font-family="Noto Sans CJK SC, sans-serif" fill="#18343F">
-<text x="36" y="55" font-size="33" font-weight="700" fill="#18343F">资源边界：本地、云端与混合</text>
-<text x="36" y="99" font-size="23" font-weight="400" fill="#526774">先看资源在哪里，再核对模型与数据流</text>
-<rect x="30" y="142" width="280" height="398" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="52" y="186" font-size="27" font-weight="700" fill="#216E69">本地运行</text>
-<text x="52" y="228" font-size="22" font-weight="400" fill="#18343F">自己的设备或网络</text>
-<text x="52" y="264" font-size="22" font-weight="400" fill="#18343F">本机软件与会话</text>
-<text x="52" y="300" font-size="22" font-weight="400" fill="#18343F">私有文件、NAS</text>
-<text x="52" y="336" font-size="22" font-weight="400" fill="#18343F">内网设备、物理接口</text>
-<text x="52" y="372" font-size="22" font-weight="400" fill="#18343F"></text>
-<text x="52" y="408" font-size="22" font-weight="400" fill="#18343F">维护与恢复由你承担</text>
-<rect x="340" y="142" width="280" height="398" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="362" y="186" font-size="27" font-weight="700" fill="#216E69">混合部署</text>
-<text x="362" y="228" font-size="22" font-weight="400" fill="#18343F">连接两端资源</text>
-<text x="362" y="264" font-size="22" font-weight="400" fill="#18343F">云端调度本地执行</text>
-<text x="362" y="300" font-size="22" font-weight="400" fill="#18343F">或本地调用云模型</text>
-<text x="362" y="336" font-size="22" font-weight="400" fill="#18343F">本机步骤需节点在线</text>
-<text x="362" y="372" font-size="22" font-weight="400" fill="#18343F"></text>
-<text x="362" y="408" font-size="22" font-weight="400" fill="#18343F">逐项确认传输与权限</text>
-<rect x="650" y="142" width="280" height="398" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
-<text x="672" y="186" font-size="27" font-weight="700" fill="#216E69">平台云端</text>
-<text x="672" y="228" font-size="22" font-weight="400" fill="#18343F">厂商托管运行环境</text>
-<text x="672" y="264" font-size="22" font-weight="400" fill="#18343F">云电脑与连接应用</text>
-<text x="672" y="300" font-size="22" font-weight="400" fill="#18343F">常驻任务与通知</text>
-<text x="672" y="336" font-size="22" font-weight="400" fill="#18343F">按资格和额度使用</text>
-<text x="672" y="372" font-size="22" font-weight="400" fill="#18343F"></text>
-<text x="672" y="408" font-size="22" font-weight="400" fill="#18343F">托管减少部分运维</text>
-<path d="M310 326 L338 326" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M650 372 L622 372" fill="none" stroke="#216E69" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="30" y="575" width="900" height="218" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
-<text x="52" y="619" font-size="27" font-weight="700" fill="#216E69">同样需要回答四个问题</text>
-<text x="52" y="661" font-size="22" font-weight="400" fill="#18343F">原资料在哪里？   模型收到什么？</text>
-<text x="52" y="697" font-size="22" font-weight="400" fill="#18343F">工具能动什么？   日志与副本在哪里？</text>
-<text x="52" y="733" font-size="22" font-weight="400" fill="#18343F">本地进程 ≠ 本地模型 ≠ 软件开源</text>
-<text x="36" y="845" font-size="23" font-weight="400" fill="#526774">严格不外发与离线任务，要检查完整依赖链路。</text>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="840" viewBox="0 0 960 840" role="img" aria-labelledby="05-resource-boundaries-title 05-resource-boundaries-desc" id="d-05-resource-boundaries-root">
+<title id="05-resource-boundaries-title">混合部署：跨界的两条路线</title>
+<desc id="05-resource-boundaries-desc">本地运行时靠近设备与私有资源，云端可调度获准的本地执行，本地运行时也可调用远程模型，两条路线须分别确认数据传输和权限。</desc>
+<!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
+MIT License
+
+Copyright (c) 2025 Cathryn Lavery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<defs>
+      <style>#d-05-resource-boundaries-root { color: #18343f; font-family: Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif; }
+      #d-05-resource-boundaries-root .diagram-container { width:100%;overflow-x:auto }
+      #d-05-resource-boundaries-root .diagram-container { overflow:visible }</style><marker id="d-05-resource-boundaries-05-resource-boundaries-neutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#526774"/></marker>
+<marker id="d-05-resource-boundaries-05-resource-boundaries-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#216e69"/></marker></defs>
+<rect x="0" y="0" width="960" height="840" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="40" y="48" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">PERSONAL AGENT  /  DEPLOYMENT</text>
+<text x="40" y="100" fill="#18343f" font-size="32" font-weight="600" font-family="Noto Serif CJK SC, Songti SC, serif" text-anchor="start">混合部署：跨界的两条路线</text>
+<text x="40" y="140" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">纯本地、纯云端与混合各有位置；连接不等于无限访问。</text>
+<rect x="40" y="184" width="376" height="424" rx="8" fill="#f5f1e8" stroke="#526774" stroke-width="1.2" stroke-dasharray="4 5"/>
+<text x="60" y="224" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">用户设备／私有网络</text>
+<text x="60" y="260" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">本机应用 · 私有文件 · NAS · 硬件</text>
+<rect x="544" y="184" width="376" height="424" rx="8" fill="#f5f1e8" stroke="#526774" stroke-width="1.2" stroke-dasharray="4 5"/>
+<text x="564" y="224" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">远程基础设施</text>
+<text x="564" y="260" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">平台托管／自托管；维护责任不同</text>
+<path d="M584 332 H376" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-05-resource-boundaries-05-resource-boundaries-neutral)" stroke-dasharray="5 5"/>
+<path d="M212 400 V460" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-05-resource-boundaries-05-resource-boundaries-neutral)"/>
+<path d="M376 368 H464 Q472 368 472 376 V504 Q472 512 480 512 H584" fill="none" stroke="#216e69" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-05-resource-boundaries-05-resource-boundaries-accent)" stroke-dasharray="5 5"/>
+<rect x="432.0" y="297" width="96" height="28" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="480" y="318" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">获准任务</text>
+<rect x="346.0" y="431" width="116" height="28" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="404" y="452" fill="#216e69" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">获准上下文</text>
+<rect x="220.0" y="419" width="96" height="28" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="268" y="440" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">工具动作</text>
+<rect x="80" y="296" width="296" height="104" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="100" y="328" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">本地运行时</text>
+<text x="100" y="364" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">工具与状态留在这端</text>
+<rect x="80" y="460" width="296" height="104" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="100" y="492" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">本地资源</text>
+<text x="100" y="528" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">访问范围由配置限定</text>
+<rect x="584" y="296" width="296" height="104" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="604" y="328" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">云端调度</text>
+<text x="604" y="364" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">连接获准的本地组件</text>
+<rect x="584" y="460" width="296" height="104" rx="6" fill="#e5eee9" stroke="#216e69" stroke-width="1.2"/>
+<text x="604" y="492" fill="#216e69" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">远程模型</text>
+<text x="604" y="528" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">可收到被允许的输入</text>
+<text x="40" y="660" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">四项核对</text>
+<text x="232" y="660" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">原资料在哪里？模型收到什么？</text>
+<text x="232" y="696" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">工具能动什么？日志与副本在哪里？</text>
+<line x1="40" y1="740" x2="920" y2="740" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="40" y="776" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">全本地路线还需本地模型与工具；纯云端须能合法触及目标资源。</text>
+<text x="40" y="808" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">严格不外发或离线任务，应核对推理、工具、索引、日志与完整依赖链。</text>
 </svg>

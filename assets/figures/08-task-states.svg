@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="776" viewBox="0 0 960 776" role="img" aria-labelledby="08-task-states-title 08-task-states-desc" id="d-08-task-states-root">
+<title id="08-task-states-title">等待是状态，恢复要先核对事实</title>
+<desc id="08-task-states-desc">任务从准备、执行到核验与完成，缺信息或缺批准则进入等待；恢复前确认已发生动作、当前状态和授权，不能继续则停止。</desc>
+<!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
+MIT License
+
+Copyright (c) 2025 Cathryn Lavery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<defs>
+      <style>#d-08-task-states-root { color: #18343f; font-family: Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif; }
+      #d-08-task-states-root .diagram-container { width:100%;overflow-x:auto }
+      #d-08-task-states-root .diagram-container { overflow:visible }</style><marker id="d-08-task-states-08-task-states-neutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#526774"/></marker>
+<marker id="d-08-task-states-08-task-states-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#216e69"/></marker></defs>
+<rect x="0" y="0" width="960" height="776" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="40" y="48" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">PERSONAL AGENT  /  STATE MACHINE</text>
+<text x="40" y="100" fill="#18343f" font-size="32" font-weight="600" font-family="Noto Serif CJK SC, Songti SC, serif" text-anchor="start">等待是状态，恢复要先核对事实</text>
+<text x="40" y="140" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">状态告诉你下一步由谁负责；请求超时不能当作从未执行。</text>
+<text x="40" y="196" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">正常推进</text>
+<path d="M200 272 H280" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-08-task-states-08-task-states-neutral)"/>
+<path d="M440 272 H520" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-08-task-states-08-task-states-neutral)"/>
+<path d="M680 272 H760" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-08-task-states-08-task-states-neutral)"/>
+<rect x="202.0" y="234" width="76" height="28" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="240" y="255" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">已具备</text>
+<rect x="442.0" y="234" width="76" height="28" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="480" y="255" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">有回执</text>
+<rect x="692.0" y="234" width="56" height="28" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="720" y="255" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">达标</text>
+<path d="M372 324 V432" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-08-task-states-08-task-states-neutral)" stroke-dasharray="5 5"/>
+<path d="M440 492 H520" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-08-task-states-08-task-states-neutral)" stroke-dasharray="5 5"/>
+<path d="M612 432 V392 Q612 384 604 384 H432 Q424 384 424 376 V324" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-08-task-states-08-task-states-neutral)" stroke-dasharray="5 5"/>
+<path d="M612 552 V632" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#d-08-task-states-08-task-states-neutral)" stroke-dasharray="5 5"/>
+<rect x="346.0" y="375" width="136" height="28" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="414" y="396" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">缺信息／批准</text>
+<rect x="442.0" y="454" width="76" height="28" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="480" y="475" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">可恢复</text>
+<rect x="480.0" y="351" width="96" height="28" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="528" y="372" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">重新核对</text>
+<rect x="616.0" y="583" width="96" height="28" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="664" y="604" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">无法继续</text>
+<rect x="40" y="220" width="160" height="104" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="60" y="252" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">准备中</text>
+<text x="60" y="288" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">目标与边界</text>
+<rect x="280" y="220" width="160" height="104" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="300" y="252" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">执行中</text>
+<text x="300" y="288" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">记录请求</text>
+<rect x="520" y="220" width="160" height="104" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="540" y="252" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">核验中</text>
+<text x="540" y="288" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">查真实状态</text>
+<rect x="760" y="220" width="160" height="104" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="780" y="252" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">已完成</text>
+<text x="780" y="288" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">验收达标</text>
+<text x="40" y="420" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">中断／恢复</text>
+<rect x="280" y="432" width="160" height="120" rx="6" fill="#e5eee9" stroke="#216e69" stroke-width="1.2"/>
+<text x="300" y="464" fill="#216e69" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">等待中</text>
+<text x="300" y="500" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">等信息／批准</text>
+<text x="300" y="532" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">说明期限</text>
+<rect x="520" y="432" width="184" height="120" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="540" y="464" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">恢复核对</text>
+<text x="540" y="500" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">已发生动作</text>
+<text x="540" y="532" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">授权仍有效？</text>
+<rect x="520" y="632" width="184" height="64" rx="6" fill="#fffdf8" stroke="#526774" stroke-width="1.2"/>
+<text x="540" y="664" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">已停止</text>
+<text x="40" y="636" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">任一阶段可暂停。</text>
+<text x="40" y="668" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">停止新动作不撤回历史动作。</text>
+<line x1="40" y1="708" x2="920" y2="708" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="40" y="744" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">本图为状态总览；等待信息和等待批准在实际任务中应分别记录。</text>
+</svg>

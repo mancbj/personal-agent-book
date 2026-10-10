@@ -1,48 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1070" viewBox="0 0 960 1070" role="img" aria-labelledby="title desc">
-<title id="title">概念范围与代表产品</title><desc id="desc">回答、执行任务和持续事务是可交叠的能力；工作代理与个人代理共享工具，但组织重点不同；本地、云端与混合为独立部署维度，模型位置与生态控制也需分别辨识。</desc>
-<rect width="960" height="1070" rx="24" fill="#f5f1e8"/>
-<g font-family="Noto Sans CJK SC, sans-serif" fill="#18343f">
-<text x="40" y="48" font-size="18" fill="#216e69" font-weight="700">02 / 概念地图</text>
-<text x="40" y="98" font-size="34" fill="#18343f" font-weight="700">能力可以重叠，运行方式另看</text>
-<text x="40" y="147" font-size="24" fill="#216e69" font-weight="700">能力范围：同一产品可以同时具备</text>
-<rect x="40" y="174" width="280" height="145" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="58" y="215" font-size="27" fill="#18343f" font-weight="700">对话助手</text>
-<text x="58" y="259" font-size="21" fill="#536773" font-weight="400">解释 · 建议 · 草稿</text>
-<text x="58" y="292" font-size="21" fill="#536773" font-weight="400">看一次交互的帮助</text>
-<rect x="340" y="174" width="280" height="145" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="358" y="215" font-size="27" fill="#18343f" font-weight="700">任务代理</text>
-<text x="358" y="259" font-size="21" fill="#536773" font-weight="400">计划 · 工具 · 交付</text>
-<text x="358" y="292" font-size="21" fill="#536773" font-weight="400">看一个目标的执行</text>
-<rect x="640" y="174" width="280" height="145" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="658" y="215" font-size="27" fill="#18343f" font-weight="700">个人代理</text>
-<text x="658" y="259" font-size="21" fill="#536773" font-weight="400">个人上下文 · 跟进</text>
-<text x="658" y="292" font-size="21" fill="#536773" font-weight="400">看跨时间的事务</text>
-<rect x="40" y="350" width="880" height="146" rx="14" fill="#e5eee9" stroke="#d4dedb"/>
-<text x="62" y="390" font-size="24" fill="#216e69" font-weight="700">组织重点</text>
-<text x="62" y="432" font-size="25" fill="#18343f" font-weight="400">工作代理：围绕项目与成果</text>
-<text x="510" y="432" font-size="24" fill="#18343f" font-weight="400">个人代理：围绕个人与持续安排</text>
-<text x="62" y="474" font-size="22" fill="#536773" font-weight="400">共同使用模型、工具和状态；工作与生活权限仍须分别管理。</text>
-<text x="40" y="544" font-size="24" fill="#216e69" font-weight="700">运行位置：是并列选择，也可以组合</text>
-<rect x="40" y="570" width="280" height="187" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="58" y="612" font-size="27" fill="#18343f" font-weight="700">本地派</text>
-<text x="58" y="654" font-size="20" fill="#536773" font-weight="400">用户设备 / 私有网络</text>
-<text x="58" y="687" font-size="20" fill="#536773" font-weight="400">OpenClaw、Hermes</text>
-<text x="58" y="720" font-size="20" fill="#536773" font-weight="400">本机应用 · 内网 · 硬件</text>
-<rect x="340" y="570" width="280" height="187" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="358" y="612" font-size="27" fill="#18343f" font-weight="700">云端派</text>
-<text x="358" y="654" font-size="20" fill="#536773" font-weight="400">远程基础设施</text>
-<text x="358" y="687" font-size="20" fill="#536773" font-weight="400">Muse、Dot（Dots）</text>
-<text x="358" y="720" font-size="20" fill="#536773" font-weight="400">LightVela 托管 Hermes</text>
-<rect x="640" y="570" width="280" height="187" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="658" y="612" font-size="27" fill="#18343f" font-weight="700">混合部署</text>
-<text x="658" y="654" font-size="20" fill="#536773" font-weight="400">云端与本地分工</text>
-<text x="658" y="687" font-size="20" fill="#536773" font-weight="400">授权的本地执行组件</text>
-<text x="658" y="720" font-size="20" fill="#536773" font-weight="400">说明数据流与权限</text>
-<rect x="40" y="788" width="880" height="139" rx="14" fill="#fff6e6" stroke="#d7c2a3"/>
-<text x="62" y="829" font-size="25" fill="#a75c28" font-weight="700">三件事分别核对</text>
-<text x="62" y="868" font-size="22" fill="#536773" font-weight="400">代理运行在哪儿？模型在哪儿推理？软件和控制方式是否开放？</text>
-<text x="62" y="902" font-size="22" fill="#18343f" font-weight="400">本地安装 ≠ 完全离线；开放运行时也可以托管到云端。</text>
-<text x="40" y="970" font-size="20" fill="#536773" font-weight="400">本地 / 云端位置并非能力排名。品牌的不同部署可以落在不同区域。</text>
-<text x="40" y="1002" font-size="20" fill="#536773" font-weight="400">图为本书解释框架；产品事实与来源见正文。</text>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="840" viewBox="0 0 960 840" role="img" aria-labelledby="02-concept-map-title 02-concept-map-desc" id="d-02-concept-map-root">
+<title id="02-concept-map-title">把执行、推理与开放分开看</title>
+<desc id="02-concept-map-desc">执行位置与模型推理位置形成四种示意配置，软件开放程度另行核对，对话、任务和个人代理的能力可以重叠。</desc>
+<!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
+MIT License
+
+Copyright (c) 2025 Cathryn Lavery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<defs>
+      <style>#d-02-concept-map-root { color: #18343f; font-family: Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif; }
+      #d-02-concept-map-root .diagram-container { width:100%;overflow-x:auto }
+      #d-02-concept-map-root .diagram-container { overflow:visible }</style><marker id="d-02-concept-map-02-concept-map-neutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#526774"/></marker>
+<marker id="d-02-concept-map-02-concept-map-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#216e69"/></marker></defs>
+<rect x="0" y="0" width="960" height="840" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="40" y="48" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">PERSONAL AGENT  /  QUADRANT</text>
+<text x="40" y="100" fill="#18343f" font-size="32" font-weight="600" font-family="Noto Serif CJK SC, Songti SC, serif" text-anchor="start">把执行、推理与开放分开看</text>
+<text x="40" y="140" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">两个独立的位置维度；四格是配置示意，不是产品能力排名。</text>
+<text x="40" y="196" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">对话助手</text>
+<text x="40" y="232" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">解释 · 建议 · 草稿</text>
+<text x="344" y="196" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">任务代理</text>
+<text x="344" y="232" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">计划 · 工具 · 交付</text>
+<text x="648" y="196" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">个人代理</text>
+<text x="648" y="232" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">个人上下文 · 持续跟进</text>
+<text x="40" y="280" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">能力可以重叠；工作／个人是组织重点，权限分别管理。</text>
+<text x="40" y="352" fill="#18343f" font-size="20" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">模型推理</text>
+<text x="364" y="336" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">本地执行</text>
+<text x="740" y="336" fill="#18343f" font-size="22" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="middle">远程执行</text>
+<rect x="180" y="360" width="368" height="160" rx="0" fill="#e5eee9" stroke-width="1.2"/>
+<line x1="176" y1="360" x2="920" y2="360" stroke="#c5d0ca" stroke-width="1.2"/>
+<line x1="176" y1="528" x2="920" y2="528" stroke="#526774" stroke-width="1.2"/>
+<line x1="176" y1="704" x2="920" y2="704" stroke="#c5d0ca" stroke-width="1.2"/>
+<line x1="552" y1="360" x2="552" y2="704" stroke="#526774" stroke-width="1.2"/>
+<text x="144" y="432" fill="#18343f" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">本地</text>
+<text x="144" y="604" fill="#18343f" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">远程</text>
+<text x="204" y="404" fill="#216e69" font-size="23" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">全本地链路</text>
+<text x="204" y="440" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">本机运行时 + 本机模型</text>
+<text x="204" y="472" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">离线还需全部工具可用</text>
+<text x="576" y="404" fill="#18343f" font-size="23" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">远程任务，回接本地推理</text>
+<text x="576" y="440" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">需获准的推理连接</text>
+<text x="576" y="472" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">仍有跨界传输</text>
+<text x="204" y="576" fill="#18343f" font-size="23" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">本地运行，调用云模型</text>
+<text x="204" y="612" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">工具靠近本机资源</text>
+<text x="204" y="644" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">获准上下文会发往远程</text>
+<text x="576" y="576" fill="#18343f" font-size="23" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">远程运行与推理</text>
+<text x="576" y="612" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">托管运行时 + 远程模型</text>
+<text x="576" y="644" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">仍需确认资源与权限</text>
+<line x1="40" y1="740" x2="920" y2="740" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="40" y="776" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">第三个维度：软件是否开放、配置由谁管理、状态能否迁移。</text>
+<text x="40" y="808" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">本地安装不等于离线；开放运行时也可以部署在云端。</text>
 </svg>

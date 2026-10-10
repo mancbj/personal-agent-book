@@ -1,36 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="860" viewBox="0 0 960 860" role="img" aria-labelledby="title desc">
-<title id="title">产品与生态版图</title><desc id="desc">海外平台Muse、Grok Bot、Dot、Cue；国内LightVela、Spell、千问；创业Instinct、Today；开放运行时OpenClaw、Hermes。状态需分别看，开放运行时可本地或云端部署。</desc>
-<rect width="960" height="860" rx="24" fill="#f5f1e8"/>
-<g font-family="Noto Sans CJK SC, sans-serif" fill="#18343f">
-<text x="40" y="48" font-size="18" fill="#216e69" font-weight="700">03 / 产品鸟瞰 · 2026-10-10</text>
-<text x="40" y="98" font-size="34" fill="#18343f" font-weight="700">不同入口，接手不同的麻烦</text>
-<rect x="40" y="138" width="430" height="272" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="62" y="182" font-size="27" fill="#216e69" font-weight="700">海外托管平台</text>
-<text x="62" y="229" font-size="23" fill="#18343f" font-weight="400">Meta · Muse</text>
-<text x="62" y="266" font-size="23" fill="#18343f" font-weight="400">xAI · Grok Bot</text>
-<text x="62" y="303" font-size="23" fill="#18343f" font-weight="400">OpenAI · Dot（Dots）</text>
-<text x="62" y="340" font-size="23" fill="#18343f" font-weight="400">Manus · Cue</text>
-<text x="62" y="383" font-size="19" fill="#536773" font-weight="400">生活入口 / 持续工作 / 代理分工</text>
-<rect x="490" y="138" width="430" height="272" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="512" y="182" font-size="27" fill="#216e69" font-weight="700">国内平台动向</text>
-<text x="512" y="229" font-size="23" fill="#18343f" font-weight="400">腾讯 · LightVela（产品文档）</text>
-<text x="512" y="266" font-size="23" fill="#18343f" font-weight="400">字节 · Spell（媒体曝光）</text>
-<text x="512" y="303" font-size="23" fill="#18343f" font-weight="400">阿里 · 千问（路线宣布）</text>
-<text x="512" y="383" font-size="19" fill="#536773" font-weight="400">生态入口与开放状态分别核验</text>
-<rect x="40" y="443" width="430" height="272" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="62" y="487" font-size="27" fill="#216e69" font-weight="700">创业公司路线</text>
-<text x="62" y="534" font-size="23" fill="#18343f" font-weight="400">Instinct · 通信中的私人助理</text>
-<text x="62" y="571" font-size="23" fill="#18343f" font-weight="400">Today AI · Today</text>
-<text x="62" y="608" font-size="23" fill="#18343f" font-weight="400">生活记忆 / 主动提议</text>
-<text x="62" y="688" font-size="19" fill="#536773" font-weight="400">定位与增长说法不等于实测结果</text>
-<rect x="490" y="443" width="430" height="272" rx="14" fill="#ffffff" stroke="#d4dedb"/>
-<text x="512" y="487" font-size="27" fill="#216e69" font-weight="700">开放运行时与本地生态</text>
-<text x="512" y="534" font-size="23" fill="#18343f" font-weight="400">OpenClaw · 自主管理环境</text>
-<text x="512" y="571" font-size="23" fill="#18343f" font-weight="400">Hermes · 记忆与技能</text>
-<text x="512" y="608" font-size="23" fill="#18343f" font-weight="400">本地 / 自托管云端 / 平台托管</text>
-<text x="512" y="688" font-size="19" fill="#536773" font-weight="400">本机 / 私有网络 / 自定义工具</text>
-<rect x="40" y="745" width="880" height="76" rx="14" fill="#e5eee9" stroke="#d4dedb"/>
-<text x="62" y="775" font-size="23" fill="#216e69" font-weight="700">生态交集：LightVela 在云端运行 Hermes。</text>
-<text x="62" y="805" font-size="20" fill="#18343f" font-weight="400">本地派与云端派可以并存；曝光、宣布、邀请测试与开放分别标注。</text>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="920" viewBox="0 0 960 920" role="img" aria-labelledby="03-product-landscape-title 03-product-landscape-desc" id="d-03-product-landscape-root">
+<title id="03-product-landscape-title">产品版图：看入口，也看开放状态</title>
+<desc id="03-product-landscape-desc">个人代理分为海外托管、国内动向、创业路线和开放运行时四个观察组，十一项产品全部列出，开放运行时连接本地与云端。</desc>
+<!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
+MIT License
+
+Copyright (c) 2025 Cathryn Lavery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<defs>
+      <style>#d-03-product-landscape-root { color: #18343f; font-family: Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif; }
+      #d-03-product-landscape-root .diagram-container { width:100%;overflow-x:auto }
+      #d-03-product-landscape-root .diagram-container { overflow:visible }</style><marker id="d-03-product-landscape-03-product-landscape-neutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#526774"/></marker>
+<marker id="d-03-product-landscape-03-product-landscape-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#216e69"/></marker></defs>
+<rect x="0" y="0" width="960" height="920" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="40" y="48" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">PERSONAL AGENT  /  TREE</text>
+<text x="40" y="100" fill="#18343f" font-size="32" font-weight="600" font-family="Noto Serif CJK SC, Songti SC, serif" text-anchor="start">产品版图：看入口，也看开放状态</text>
+<text x="40" y="140" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">截至 2026-10-10 的观察分组；分组之间存在交集。</text>
+<path d="M224 480 H256" fill="none" stroke="#526774" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="256" y1="236" x2="256" y2="740" stroke="#526774" stroke-width="1.2"/>
+<line x1="256" y1="236" x2="304" y2="236" stroke="#526774" stroke-width="1.2"/>
+<line x1="256" y1="404" x2="304" y2="404" stroke="#526774" stroke-width="1.2"/>
+<line x1="256" y1="572" x2="304" y2="572" stroke="#526774" stroke-width="1.2"/>
+<line x1="256" y1="740" x2="304" y2="740" stroke="#526774" stroke-width="1.2"/>
+<rect x="40" y="416" width="184" height="128" rx="6" fill="#e5eee9" stroke="#216e69" stroke-width="1.2"/>
+<text x="60" y="448" fill="#216e69" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">个人代理</text>
+<text x="60" y="484" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">入口与运行环境</text>
+<text x="60" y="516" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">分别核对</text>
+<text x="304" y="200" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">海外托管平台</text>
+<text x="304" y="236" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">Meta Muse · xAI Grok Bot</text>
+<text x="304" y="268" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">OpenAI Dot（Dots） · Manus Cue</text>
+<text x="304" y="304" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">发布／文档／邀请体验；开放资格另查</text>
+<line x1="304" y1="320" x2="920" y2="320" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="304" y="368" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">国内平台动向</text>
+<text x="304" y="404" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">腾讯 LightVela：官方产品文档</text>
+<text x="304" y="436" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">字节 Spell：媒体曝光；千问：路线宣布</text>
+<text x="304" y="472" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">生态入口不等于全面开放</text>
+<line x1="304" y1="488" x2="920" y2="488" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="304" y="536" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">创业公司路线</text>
+<text x="304" y="572" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">Instinct：通信中的私人助理</text>
+<text x="304" y="604" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">Today AI 的 Today：生活记忆与提议</text>
+<text x="304" y="640" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">增长说法与产品定位不等于实测效果</text>
+<line x1="304" y1="656" x2="920" y2="656" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="304" y="704" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">开放运行时与本地生态</text>
+<text x="304" y="740" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">OpenClaw · Hermes</text>
+<text x="304" y="772" fill="#526774" font-size="22" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">本地执行／自托管远程／平台托管</text>
+<text x="304" y="808" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">交集示例：LightVela 云端托管 Hermes</text>
+<line x1="304" y1="824" x2="920" y2="824" stroke="#c5d0ca" stroke-width="1.2"/>
+<line x1="40" y1="852" x2="920" y2="852" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="40" y="888" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">本地与云端生态并行；具体功能、地区、费用和准入见正文及附录 B。</text>
 </svg>

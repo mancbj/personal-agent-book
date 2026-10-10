@@ -51,6 +51,7 @@ def main():
     assert document.images and all(i.startswith("data:") for i in document.images), "Images aren't embedded"
     cover_bytes = (ROOT / config["cover"]).read_bytes()
     embedded_covers = 0
+    embedded_figures = {}
     for resource in document.images:
         if resource.startswith("data:image/png;base64,"):
             assert base64.b64decode(resource.split(",", 1)[1], validate=True) == cover_bytes, "HTML cover differs from source"
@@ -60,6 +61,10 @@ def main():
         svg = ET.fromstring(base64.b64decode(resource.split(",", 1)[1], validate=True))
         assert svg.tag == "{http://www.w3.org/2000/svg}svg", "Figure has no SVG namespace"
         assert svg.get("viewBox"), "Figure has no scalable viewport"
+        title = svg.find("{http://www.w3.org/2000/svg}title")
+        assert title is not None and title.get("id"), "Figure has no accessible title"
+        assert title.text not in embedded_figures, "Duplicate figure title"
+        embedded_figures[title.text] = svg
     assert embedded_covers == 1, "HTML needs exactly one embedded cover"
     for link in document.links:
         parsed = urlsplit(link)
@@ -88,6 +93,22 @@ def main():
     assert font_rows and all(re.search(r"\s+yes\s+(yes|no)\s+(yes|no)\s+\d+\s+\d+\s*$", row) for row in font_rows), "Unembedded PDF fonts"
     pdf_text = subprocess.check_output(["pdftotext", str(pdf), "-"], text=True)
     compact = re.sub(r"\s+", "", pdf_text)
+    figure_sources = sorted((ROOT / "assets/figures").glob("*.svg"))
+    for source in figure_sources:
+        svg = ET.parse(source).getroot()
+        title = svg.find("{http://www.w3.org/2000/svg}title")
+        assert title is not None, f"Source SVG missing title: {source.name}"
+        embedded = embedded_figures[title.text]
+        source_labels = [e.text or "" for e in svg.iter("{http://www.w3.org/2000/svg}text")]
+        embedded_labels = [e.text or "" for e in embedded.iter("{http://www.w3.org/2000/svg}text")]
+        assert source_labels == embedded_labels, f"HTML figure text differs: {source.name}"
+        assert svg.get("viewBox") == embedded.get("viewBox"), f"HTML figure frame differs: {source.name}"
+        for label in source_labels:
+            assert re.sub(r"\s+", "", label) in compact, f"Figure text missing from PDF: {source.name}: {label}"
+        preview = DIST / "diagrams" / (source.stem + ".html")
+        assert preview.is_file(), f"Missing standalone diagram: {source.name}"
+        assert "fonts.googleapis.com" not in preview.read_text(), "Diagram fetches remote fonts"
+    assert len(embedded_figures) == len(figure_sources), "Figure set differs from source set"
     for name in config["chapters"]:
         title = (ROOT / name).read_text().splitlines()[0].removeprefix("# ")
         assert re.sub(r"\s+", "", title) in compact, f"Chapter missing from PDF: {name}"
@@ -104,6 +125,16 @@ def main():
         for record in source_records:
             name = record.relative_to(ROOT).as_posix()
             assert bundle.read(name) == record.read_bytes(), f"Source record missing or changed in ZIP: {name}"
+        for source in figure_sources:
+            name = source.relative_to(ROOT).as_posix()
+            assert bundle.read(name) == source.read_bytes(), f"SVG differs in ZIP: {name}"
+        preview_sources = sorted((DIST / "diagrams").glob("*.html"))
+        for preview in preview_sources:
+            name = preview.relative_to(DIST).as_posix()
+            assert bundle.read(name) == preview.read_bytes(), f"Diagram preview differs in ZIP: {name}"
+        for name in ("scripts/render_figures.py", "scripts/vendor/diagram_design_export.py",
+                     "scripts/vendor/diagram-design-LICENSE.txt"):
+            assert bundle.read(name) == (ROOT / name).read_bytes(), f"Diagram source missing in ZIP: {name}"
         markdown = bundle.read("personal-agent-book.md").decode()
         for target in re.findall(r"!\[[^\]]*\]\(([^)]+)\)", markdown):
             assert target in bundle.namelist(), f"Markdown image missing from ZIP: {target}"
