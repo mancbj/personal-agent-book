@@ -3,11 +3,13 @@
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
+import base64
 import hashlib
 import json
 import re
 import subprocess
 import zipfile
+import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
@@ -46,6 +48,11 @@ def main():
     html_text = re.sub(r"\s+", "", "".join(document.text))
     assert not document.external, f"External HTML dependencies: {document.external}"
     assert document.images and all(i.startswith("data:") for i in document.images), "Images aren't embedded"
+    for resource in document.images:
+        assert resource.startswith("data:image/svg+xml;base64,"), "Unexpected figure format"
+        svg = ET.fromstring(base64.b64decode(resource.split(",", 1)[1], validate=True))
+        assert svg.tag == "{http://www.w3.org/2000/svg}svg", "Figure has no SVG namespace"
+        assert svg.get("viewBox"), "Figure has no scalable viewport"
     for link in document.links:
         parsed = urlsplit(link)
         if link.startswith("#"):
