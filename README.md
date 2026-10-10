@@ -10,7 +10,7 @@
 
 - **现在阅读 Markdown**：[阅读说明](book/00-introduction.md) → [第 1 章](book/01-what-agents-take-over.md) → [第 2 章](book/02-concepts-and-runtimes.md) → [第 3 章](book/03-product-landscape.md)。
 - **版本与全套下载**：[v0.1.0-part1 发布页](https://github.com/mancbj/personal-agent-book/releases/tag/v0.1.0-part1)，已提供 [HTML](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.0-part1/personal-agent-book.html)、[PDF](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.0-part1/personal-agent-book.pdf)、[完整 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.0-part1/personal-agent-book.md) 与[全套 ZIP](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.0-part1/personal-agent-book-v0.1.0-part1.zip)。
-- **在线 HTML**：当前仓库尚未首次启用 Pages，下载版已发布。部署状态见[出版工作流](https://github.com/mancbj/personal-agent-book/actions/workflows/publish.yml)；可访问地址将在实际部署并验证后公布。
+- **在线 HTML**：仓库已启用 GitHub Actions Pages，正在部署阅读版。部署状态见[出版工作流](https://github.com/mancbj/personal-agent-book/actions/workflows/publish.yml)；可访问地址将在实际部署并验证后公布。
 - **全书规划**：[已确认目录](TOC.md)；**编辑依据**：[分歧与写作约定](research/README.md)、[第一篇来源记录](research/part1-sources.md)。
 
 单页 HTML 内嵌样式与图像，可单独下载后断网阅读。PDF 提供独立分页、封面、目录、书签、页码和矢量图。完整 Markdown 的图片随 ZIP 提供；只下载 `.md` 文件时，图片资源需要一起保存。
