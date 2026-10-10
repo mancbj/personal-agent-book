@@ -4,16 +4,16 @@
 
 我们从今天的真实问题出发：AI 能接手查找、串联、等待和跟进，但它是否真的减少了你的操心？全书先鸟瞰当下，再展开选择与使用，简短回溯过去，最后讨论有条件的未来。
 
-**当前版本：v0.1.0-part1 · 第一篇审阅版 · 2026-10-10。** 本版包含第一篇三章及阅读说明；第二篇将在作者审阅确认后继续，历史、未来与全书附录尚未写作。
+**当前版本：v0.1.1-part1 · 第一篇审阅版 · 2026-10-10。** 本版包含第一篇三章及阅读说明；第二篇将在作者审阅确认后继续，历史、未来与全书附录尚未写作。
 
 ## 阅读与下载
 
 - **现在阅读 Markdown**：[阅读说明](book/00-introduction.md) → [第 1 章](book/01-what-agents-take-over.md) → [第 2 章](book/02-concepts-and-runtimes.md) → [第 3 章](book/03-product-landscape.md)。
-- **版本与全套下载**：[v0.1.0-part1 发布页](https://github.com/mancbj/personal-agent-book/releases/tag/v0.1.0-part1)，已提供 [HTML](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.0-part1/personal-agent-book.html)、[PDF](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.0-part1/personal-agent-book.pdf)、[完整 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.0-part1/personal-agent-book.md) 与[全套 ZIP](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.0-part1/personal-agent-book-v0.1.0-part1.zip)。
+- **版本与全套下载**：[v0.1.1-part1 发布页](https://github.com/mancbj/personal-agent-book/releases/tag/v0.1.1-part1)，已提供 [HTML](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.1-part1/personal-agent-book.html)、[PDF](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.1-part1/personal-agent-book.pdf)、[完整 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.1-part1/personal-agent-book.md) 与[全套 ZIP](https://github.com/mancbj/personal-agent-book/releases/download/v0.1.1-part1/personal-agent-book-v0.1.1-part1.zip)。
 - **在线 HTML**：[开始阅读第一篇](https://mancbj.github.io/personal-agent-book/)。阅读页同时提供 HTML、PDF、Markdown 和全套 ZIP 下载；部署状态见[出版工作流](https://github.com/mancbj/personal-agent-book/actions/workflows/publish.yml)。
 - **全书规划**：[已确认目录](TOC.md)；**编辑依据**：[分歧与写作约定](research/README.md)、[第一篇来源记录](research/part1-sources.md)。
 
-单页 HTML 内嵌样式与图像，可单独下载后断网阅读。PDF 提供独立分页、封面、目录、书签、页码和矢量图。完整 Markdown 的图片随 ZIP 提供；只下载 `.md` 文件时，图片资源需要一起保存。
+单页 HTML 内嵌封面、样式与图像，可单独下载后断网阅读。PDF 首页采用同一张深绿英文封面，提供独立分页、目录、书签、页码和矢量图。封面原图随 ZIP 提供。完整 Markdown 的图片随 ZIP 提供；只下载 `.md` 文件时，图片资源需要一起保存。
 
 ## 这本书适合谁
 
@@ -91,7 +91,7 @@ python scripts/check.py
 | `personal-agent-book.html` | 相同内容的独立离线 HTML |
 | `personal-agent-book.pdf` | 排版阅读与一般打印 |
 | `personal-agent-book.md` | 当前已完成内容的完整 Markdown |
-| `personal-agent-book-v0.1.0-part1.zip` | 成品、分章 Markdown 和图片资源 |
+| `personal-agent-book-v0.1.1-part1.zip` | 成品、分章 Markdown 和图片资源 |
 | `SHA256SUMS.txt` | 下载文件的校验值 |
 
 PDF 默认提供出版排版的阅读版。印厂所需开本、出血、色彩空间及 PDF/X 等参数，待具体出版需求确定后另行配置。

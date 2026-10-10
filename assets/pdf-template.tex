@@ -11,6 +11,8 @@
 \definecolor{teal}{HTML}{216E69}
 \definecolor{muted}{HTML}{526774}
 \usepackage{graphicx}
+\usepackage{eso-pic}
+\definecolor{covergreen}{HTML}{216E69}
 \usepackage{longtable,booktabs,array,calc}
 \usepackage{amsmath,amssymb}
 \usepackage{etoolbox}
@@ -59,22 +61,12 @@
 \begin{document}
 \color{ink}
 \begin{titlepage}
-\sffamily
-{\small\color{teal}OPEN SOURCE BOOK\par}
-\vspace{19mm}
-{\fontsize{43}{51}\selectfont\bfseries Personal\par Agent\par}
-\vspace{9mm}
-{\Large $subtitle$\par}
-\vspace{14mm}
-{\color{teal}\rule{32mm}{1.2pt}\par}
-\vspace{7mm}
-{\large 第一篇\par}
-{\large 先看今天：AI 正在接手什么\par}
-\vfill
-{\normalsize v$version$ · 审阅版\par}
-{\small $date$\par}
-\vspace{5mm}
-{\small $author$\par}
+\thispagestyle{empty}
+\AddToShipoutPictureBG*{%
+  \AtPageLowerLeft{\color{covergreen}\rule{\paperwidth}{\paperheight}}%
+  \AtPageCenter{\makebox(0,0){\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{$cover$}}}%
+}
+\null
 \end{titlepage}
 \frontmatter
 \thispagestyle{empty}

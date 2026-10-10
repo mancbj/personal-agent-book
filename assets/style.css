@@ -6,3 +6,9 @@
 @media(max-width:720px){body{font-size:16px;line-height:1.95}.masthead{padding:40px 22px 28px}.subtitle{font-size:21px}.edition{font-size:14px}.layout{display:block;padding:24px 22px 45px}.sidebar{position:static;max-height:300px;margin-bottom:35px;padding:16px;background:#e4ede7;border-radius:8px;font-size:14px}.sidebar>details>nav>ul>li{margin-bottom:12px}.book-content h1{font-size:26px}.book-content h2{font-size:21px}.book-content table{font-size:13px}.book-content td,.book-content th{padding:9px 6px}footer{padding:22px}.downloads a{font-size:13px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.sidebar,.downloads,.skip{display:none}.layout{display:block;padding:0}.masthead{padding:0 0 20px}.masthead h1{font-size:40px}body{background:white;font-size:11pt}h1,h2,h3{break-after:avoid}img,tr,blockquote{break-inside:avoid}.book-content p:has(>img){overflow:visible}.book-content img{min-width:0}.book-content h1{break-before:page}a{color:inherit}footer{padding:12px 0}}
+
+/* Cover remains proportional and independent of the chapter-figure styles. */
+.masthead-layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:48px;align-items:center}.masthead-copy{min-width:0}.cover-image{display:block;width:100%;height:auto;border-radius:3px;box-shadow:0 14px 32px #18343f22}
+@media(max-width:980px){.masthead-layout{grid-template-columns:190px minmax(0,1fr);gap:30px}}
+@media(max-width:720px){.masthead-layout{display:block}.cover-image{width:220px;max-width:100%;margin:0 auto 32px}}
+@media print{.cover-image{width:180px;box-shadow:none}.masthead-layout{grid-template-columns:180px minmax(0,1fr);gap:25px}}

@@ -53,6 +53,11 @@ def main():
     merged = DIST / "personal-agent-book.md"
     merged.write_text(front + content)
     shutil.copytree(ROOT / "assets/figures", DIST / "assets/figures")
+    cover = ROOT / config["cover"]
+    if not cover.is_file():
+        raise ValueError(f"Missing cover: {config['cover']}")
+    (DIST / cover.relative_to(ROOT).parent).mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(cover, DIST / config["cover"])
     log = []
     common = ["--from=markdown-implicit_figures", "--standalone", "--toc", "--toc-depth=2"]
     run(["pandoc", str(merged), *common, "--to=html5", "--embed-resources",
@@ -99,7 +104,7 @@ def main():
     (Path(tempfile.gettempdir()) / "personal-agent-book-last-build.log").write_text("\n".join(log))
     (DIST / ".nojekyll").touch()
     tag = "v" + config["version"]
-    notes = f"# {config['edition']}\n\n版本：{tag} · {config['date']}\n\n本版包含阅读说明及第一篇第 1—3 章、三张信息图、完整 Markdown、离线单页 HTML 和出版排版 PDF。第二篇将在审阅确认后继续。产品资料观察截至 {config['date']}，没有统一产品实机测评。\n\n独立 HTML 可断网阅读；Markdown 图片与分章源稿随 ZIP 提供。\n"
+    notes = f"# {config['edition']}\n\n版本：{tag} · {config['date']}\n\n本版将深绿英文封面（含作者提供的 Logo）加入 HTML 阅读页和 PDF 首页，并随 ZIP 提供封面原图。\n\n包含阅读说明及第一篇第 1—3 章、三张信息图、完整 Markdown、离线单页 HTML 和出版排版 PDF。第二篇将在审阅确认后继续。产品资料观察截至 {config['date']}，没有统一产品实机测评。\n\n独立 HTML 可断网阅读；Markdown 图片与分章源稿随 ZIP 提供。\n"
     (DIST / "release-notes.md").write_text(notes)
     archive = DIST / f"personal-agent-book-{tag}.zip"
     with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as bundle:
@@ -107,6 +112,7 @@ def main():
             bundle.write(DIST / file, file)
         for svg in (DIST / "assets/figures").glob("*.svg"):
             bundle.write(svg, svg.relative_to(DIST))
+        bundle.write(cover, config["cover"])
         for name in config["chapters"]:
             bundle.write(ROOT / name, name)
         for name in ("LICENSE", "book.json"):
