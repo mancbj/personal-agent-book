@@ -1,12 +1,12 @@
 {
   "title": "Personal Agent",
   "subtitle": "从会回答，到能办事，再到值得托付",
-  "edition": "第一至三篇 · 理解、实践与回望",
-  "version": "0.3.0-part3",
-  "review_label": "第一至三篇审阅版",
-  "publication_scope": "三篇阅读说明及第 1—10 章",
-  "next_note": "第四篇及全书附录尚未写作。",
-  "release_summary": "新增第三篇阅读说明、第 10 章及演进信息图，简短回顾愿景、研究、语音助手、行动工具与持续运行环境，保留本地与云端的并行路径。",
+  "edition": "第一至四篇 · 理解、实践、回望与未来",
+  "version": "0.4.0-part4",
+  "review_label": "第一至四篇审阅版",
+  "publication_scope": "四篇阅读说明及第 1—12 章",
+  "next_note": "十二章正文初稿已齐，全书附录尚未编写。",
+  "release_summary": "新增第四篇阅读说明、第 11—12 章及未来情景图，提出附前提与反证的未来观察，讨论记忆迁移、商业推荐、授权责任与数字生活控制权。",
   "cover": "assets/covers/personal-agent-book-cover.png",
   "date": "2026-10-10",
   "author": "personal-agent-book 开源书项目",
@@ -24,6 +24,9 @@
     "book/08-delegating-work.md",
     "book/09-trust-and-permissions.md",
     "book/part3-introduction.md",
-    "book/10-history-of-personal-agents.md"
+    "book/10-history-of-personal-agents.md",
+    "book/part4-introduction.md",
+    "book/11-future-scenarios.md",
+    "book/12-control-of-digital-life.md"
   ]
 }

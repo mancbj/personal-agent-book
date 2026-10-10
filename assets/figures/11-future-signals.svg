@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1080" viewBox="0 0 1120 1080" role="img" aria-labelledby="title desc">
+<title id="title">未来情景：前提、信号与反证</title>
+<desc id="desc">三种可能并存的形态：大众生活助手、专业工作代理、自主可迁移代理环境。每种形态标明成立前提、观察信号以及会削弱判断的反证。底部提醒本地、云端和混合按资源与数据条件并行，现有产品与协议仅提供支持线索，不证明必然普及。</desc>
+<rect width="1120" height="1080" fill="#F5F1E8"/>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#18343F">
+<text x="36" y="57" font-size="35" font-weight="700" fill="#18343F">未来情景：前提、信号与反证</text>
+<text x="36" y="103" font-size="24" font-weight="400" fill="#526774">三种形态可能并存；以下是作者情景分析</text>
+<rect x="30" y="140" width="1060" height="205" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
+<text x="54" y="183" font-size="28" font-weight="700" fill="#216E69">01 · 大众生活助手</text>
+<text x="54" y="226" font-size="24" font-weight="400" fill="#18343F">前提：常用服务可连，授权与提醒足够克制</text>
+<text x="54" y="264" font-size="24" font-weight="400" fill="#18343F">看信号：重复任务少催促，净省心持续增加</text>
+<text x="54" y="302" font-size="24" font-weight="400" fill="#526774">反证：打断增多，做完仍需逐步重查</text>
+<rect x="30" y="365" width="1060" height="205" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
+<text x="54" y="408" font-size="28" font-weight="700" fill="#216E69">02 · 专业工作代理</text>
+<text x="54" y="451" font-size="24" font-weight="400" fill="#18343F">前提：工具权限、工作规则与验收标准明确</text>
+<text x="54" y="489" font-size="24" font-weight="400" fill="#18343F">看信号：成果可验收，异常可交回负责人</text>
+<text x="54" y="527" font-size="24" font-weight="400" fill="#526774">反证：复核与返工吞掉收益，权限难以打通</text>
+<rect x="30" y="590" width="1060" height="205" rx="16" fill="#FFFDFA" stroke="#216E69" stroke-width="1.5"/>
+<text x="54" y="633" font-size="28" font-weight="700" fill="#216E69">03 · 自主可迁移的代理环境</text>
+<text x="54" y="676" font-size="24" font-weight="400" fill="#18343F">前提：配置与状态可恢复，维护负担可承担</text>
+<text x="54" y="714" font-size="24" font-weight="400" fill="#18343F">看信号：更换环境后，低风险任务能继续</text>
+<text x="54" y="752" font-size="24" font-weight="400" fill="#526774">反证：只能导出聊天，升级反复破坏流程</text>
+<rect x="30" y="815" width="1060" height="152" rx="16" fill="#E4EFE7" stroke="#216E69" stroke-width="1.5"/>
+<text x="54" y="856" font-size="28" font-weight="700" fill="#216E69">本地、云端与混合：按资源和数据条件分工</text>
+<text x="54" y="897" font-size="24" font-weight="400" fill="#18343F">设备与私有网络 · 持续在线 · 执行与推理的数据流</text>
+<text x="54" y="935" font-size="24" font-weight="400" fill="#18343F">运行位置、开放程度和控制权，需要分别判断。</text>
+<text x="36" y="1012" font-size="24" font-weight="400" fill="#526774">现有产品与协议提供线索；没有承诺普及时间或成功率。</text>
+</g>
+</svg>
