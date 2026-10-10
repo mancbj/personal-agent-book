@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="740" viewBox="0 0 960 740" role="img" aria-labelledby="title desc">
+<title id="title">一次通知如何变成办完的事</title><desc id="desc">用户说明目标和边界；代理检查航班变化对酒店、接机、会议的影响，准备获准动作，等待回应，核对结果并交还重要决定。</desc>
+<rect width="960" height="740" rx="24" fill="#f5f1e8"/>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#18343f">
+<text x="40" y="48" font-size="18" fill="#216e69" font-weight="700">01 / 持续委托</text>
+<text x="40" y="98" font-size="34" fill="#18343f" font-weight="700">从一封通知，到一件办完的事</text>
+<rect x="40" y="128" width="880" height="116" rx="14" fill="#e5eee9" stroke="#d4dedb"/>
+<text x="64" y="171" font-size="27" fill="#216e69" font-weight="700">人：给出目标与边界</text>
+<text x="64" y="212" font-size="23" fill="#536773" font-weight="400">调整周五安排；先准备草稿；不取消订单、不付款</text>
+<rect x="40" y="274" width="430" height="142" rx="14" fill="#ffffff" stroke="#d4dedb"/>
+<text x="64" y="315" font-size="26" fill="#18343f" font-weight="700">察觉变化</text>
+<text x="64" y="353" font-size="22" fill="#536773" font-weight="400">航班推迟三小时</text>
+<text x="64" y="385" font-size="22" fill="#536773" font-weight="400">找出关联安排</text>
+<rect x="490" y="274" width="430" height="142" rx="14" fill="#ffffff" stroke="#d4dedb"/>
+<text x="514" y="315" font-size="26" fill="#18343f" font-weight="700">整理影响</text>
+<text x="514" y="353" font-size="22" fill="#536773" font-weight="400">酒店 · 接机 · 会议</text>
+<text x="514" y="385" font-size="22" fill="#536773" font-weight="400">确认约束与选项</text>
+<rect x="40" y="444" width="430" height="142" rx="14" fill="#ffffff" stroke="#d4dedb"/>
+<text x="64" y="485" font-size="26" fill="#18343f" font-weight="700">推进已授权工作</text>
+<text x="64" y="523" font-size="22" fill="#536773" font-weight="400">准备、确认、执行</text>
+<text x="64" y="555" font-size="22" fill="#536773" font-weight="400">保留等待中的事项</text>
+<rect x="490" y="444" width="430" height="142" rx="14" fill="#ffffff" stroke="#d4dedb"/>
+<text x="514" y="485" font-size="26" fill="#18343f" font-weight="700">带回结果与决定</text>
+<text x="514" y="523" font-size="22" fill="#536773" font-weight="400">核对实际改变</text>
+<text x="514" y="555" font-size="22" fill="#536773" font-weight="400">不确定时交还控制</text>
+<text x="464" y="353" font-size="28" fill="#216e69" font-weight="400">→</text>
+<text x="689" y="426" font-size="28" fill="#216e69" font-weight="400">↓</text>
+<text x="240" y="426" font-size="28" fill="#216e69" font-weight="400">↓</text>
+<text x="464" y="522" font-size="28" fill="#216e69" font-weight="400">→</text>
+<rect x="40" y="616" width="880" height="80" rx="14" fill="#18343f" stroke="#18343f"/>
+<text x="62" y="647" font-size="24" fill="#ffffff" font-weight="700">核验：什么已完成？什么仍在等待？哪件事需要我决定？</text>
+<text x="62" y="678" font-size="19" fill="#cadcd9" font-weight="400">示意分工，不是任何产品的完整实测流程。</text>
+</g>
+</svg>

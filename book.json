@@ -1,0 +1,15 @@
+{
+  "title": "Personal Agent",
+  "subtitle": "从会回答，到能办事，再到值得托付",
+  "edition": "第一篇 · 先看今天：AI 正在接手什么",
+  "version": "0.1.0-part1",
+  "date": "2026-10-10",
+  "author": "personal-agent-book 开源书项目",
+  "repository": "https://github.com/mancbj/personal-agent-book",
+  "chapters": [
+    "book/00-introduction.md",
+    "book/01-what-agents-take-over.md",
+    "book/02-concepts-and-runtimes.md",
+    "book/03-product-landscape.md"
+  ]
+}

@@ -1,0 +1,85 @@
+name: Publish book
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install publication tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-latex-extra fonts-noto-cjk poppler-utils libcairo2
+          python -m pip install -r requirements.txt
+      - name: Build and verify all formats
+        run: |
+          python scripts/build.py
+          python scripts/check.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: publication
+          path: dist/
+          include-hidden-files: true
+
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: publication
+          path: dist
+      - name: Publish versioned downloads
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: |
+          EXPECTED_TAG=$(python -c 'import json; print("v" + json.load(open("book.json"))["version"])')
+          test "$RELEASE_TAG" = "$EXPECTED_TAG"
+          if ! gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            gh release create "$RELEASE_TAG" --verify-tag --title "Personal Agent · $RELEASE_TAG" --notes-file dist/release-notes.md
+          fi
+          gh release upload "$RELEASE_TAG" dist/personal-agent-book.html dist/personal-agent-book.pdf dist/personal-agent-book.md "dist/personal-agent-book-$RELEASE_TAG.zip" dist/SHA256SUMS.txt --clobber
+
+  pages:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - uses: actions/download-artifact@v4
+        with:
+          name: publication
+          path: dist
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Deploy reading edition
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="860" viewBox="0 0 960 860" role="img" aria-labelledby="title desc">
+<title id="title">产品与生态版图</title><desc id="desc">海外平台Muse、Grok Bot、Dot、Cue；国内LightVela、Spell、千问；创业Instinct、Today；开放运行时OpenClaw、Hermes。状态需分别看，开放运行时可本地或云端部署。</desc>
+<rect width="960" height="860" rx="24" fill="#f5f1e8"/>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#18343f">
+<text x="40" y="48" font-size="18" fill="#216e69" font-weight="700">03 / 产品鸟瞰 · 2026-10-10</text>
+<text x="40" y="98" font-size="34" fill="#18343f" font-weight="700">不同入口，接手不同的麻烦</text>
+<rect x="40" y="138" width="430" height="272" rx="14" fill="#ffffff" stroke="#d4dedb"/>
+<text x="62" y="182" font-size="27" fill="#216e69" font-weight="700">海外托管平台</text>
+<text x="62" y="229" font-size="23" fill="#18343f" font-weight="400">Meta · Muse</text>
+<text x="62" y="266" font-size="23" fill="#18343f" font-weight="400">xAI · Grok Bot</text>
+<text x="62" y="303" font-size="23" fill="#18343f" font-weight="400">OpenAI · Dot（Dots）</text>
+<text x="62" y="340" font-size="23" fill="#18343f" font-weight="400">Manus · Cue</text>
+<text x="62" y="383" font-size="19" fill="#536773" font-weight="400">生活入口 / 持续工作 / 代理分工</text>
+<rect x="490" y="138" width="430" height="272" rx="14" fill="#ffffff" stroke="#d4dedb"/>
+<text x="512" y="182" font-size="27" fill="#216e69" font-weight="700">国内平台动向</text>
+<text x="512" y="229" font-size="23" fill="#18343f" font-weight="400">腾讯 · LightVela（产品文档）</text>
+<text x="512" y="266" font-size="23" fill="#18343f" font-weight="400">字节 · Spell（媒体曝光）</text>
+<text x="512" y="303" font-size="23" fill="#18343f" font-weight="400">阿里 · 千问（路线宣布）</text>
+<text x="512" y="383" font-size="19" fill="#536773" font-weight="400">生态入口与开放状态分别核验</text>
+<rect x="40" y="443" width="430" height="272" rx="14" fill="#ffffff" stroke="#d4dedb"/>
+<text x="62" y="487" font-size="27" fill="#216e69" font-weight="700">创业公司路线</text>
+<text x="62" y="534" font-size="23" fill="#18343f" font-weight="400">Instinct · 通信中的私人助理</text>
+<text x="62" y="571" font-size="23" fill="#18343f" font-weight="400">Today AI · Today</text>
+<text x="62" y="608" font-size="23" fill="#18343f" font-weight="400">生活记忆 / 主动提议</text>
+<text x="62" y="688" font-size="19" fill="#536773" font-weight="400">定位与增长说法不等于实测结果</text>
+<rect x="490" y="443" width="430" height="272" rx="14" fill="#ffffff" stroke="#d4dedb"/>
+<text x="512" y="487" font-size="27" fill="#216e69" font-weight="700">开放运行时与本地生态</text>
+<text x="512" y="534" font-size="23" fill="#18343f" font-weight="400">OpenClaw · 自主管理环境</text>
+<text x="512" y="571" font-size="23" fill="#18343f" font-weight="400">Hermes · 记忆与技能</text>
+<text x="512" y="608" font-size="23" fill="#18343f" font-weight="400">本地 / 自托管云端 / 平台托管</text>
+<text x="512" y="688" font-size="19" fill="#536773" font-weight="400">本机 / 私有网络 / 自定义工具</text>
+<rect x="40" y="745" width="880" height="76" rx="14" fill="#e5eee9" stroke="#d4dedb"/>
+<text x="62" y="775" font-size="23" fill="#216e69" font-weight="700">生态交集：LightVela 在云端运行 Hermes。</text>
+<text x="62" y="805" font-size="20" fill="#18343f" font-weight="400">本地派与云端派可以并存；曝光、宣布、邀请测试与开放分别标注。</text>
+</g>
+</svg>
