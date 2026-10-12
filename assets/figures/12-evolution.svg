@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1040" viewBox="0 0 960 1040" role="img" aria-labelledby="10-evolution-title 10-evolution-desc" id="d-10-evolution-root">
-<title id="10-evolution-title">组件逐步汇合，路线继续并行</title>
-<desc id="10-evolution-desc">三个分段时间轴按真实年份间隔列出概念愿景、代理研究、消费产品以及行动和工具协议节点；分段采用各自刻度，不代表连续或单线演进。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1040" viewBox="0 0 960 1040" role="img" aria-labelledby="12-evolution-title 12-evolution-desc" id="d-12-evolution-root">
+<title id="12-evolution-title">组件逐步汇合，路线继续并行</title>
+<desc id="12-evolution-desc">三个分段时间轴按真实年份间隔列出概念愿景、代理研究、消费产品以及行动和工具协议节点；分段采用各自刻度，不代表连续或单线演进。</desc>
 <!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
 MIT License
 
@@ -26,10 +26,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
 <defs>
-      <style>#d-10-evolution-root { color: #18343f; font-family: Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif; }
-      #d-10-evolution-root .diagram-container { width:100%;overflow-x:auto }
-      #d-10-evolution-root .diagram-container { overflow:visible }</style><marker id="d-10-evolution-10-evolution-neutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#526774"/></marker>
-<marker id="d-10-evolution-10-evolution-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#216e69"/></marker></defs>
+      <style>#d-12-evolution-root { color: #18343f; font-family: Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif; }
+      #d-12-evolution-root .diagram-container { width:100%;overflow-x:auto }
+      #d-12-evolution-root .diagram-container { overflow:visible }</style><marker id="d-12-evolution-12-evolution-neutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#526774"/></marker>
+<marker id="d-12-evolution-12-evolution-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#216e69"/></marker></defs>
 <rect x="0" y="0" width="960" height="1040" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
 <text x="40" y="48" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">PERSONAL AGENT  /  TIMELINE</text>
 <text x="40" y="100" fill="#18343f" font-size="32" font-weight="600" font-family="Noto Serif CJK SC, Songti SC, serif" text-anchor="start">组件逐步汇合，路线继续并行</text>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="820" viewBox="0 0 960 820" role="img" aria-labelledby="11-physical-stages-title 11-physical-stages-desc" id="d-11-physical-stages-root">
+<title id="11-physical-stages-title">走出屏幕，行动边界逐级具体</title>
+<desc id="11-physical-stages-desc">眼镜与可穿戴侧重感知和反馈，家庭中枢连接设备与执行器，机器人增加移动与接触物品；每层分别核对授权、失败和产品成熟度。</desc>
+<!-- Layout adapted from cathrynlavery/diagram-design @ 246d6d71d752245403d2bf28d27f124192584d18.
+MIT License
+
+Copyright (c) 2025 Cathryn Lavery
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+<defs>
+      <style>#d-11-physical-stages-root { color: #18343f; font-family: Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif; }
+      #d-11-physical-stages-root .diagram-container { width:100%;overflow-x:auto }
+      #d-11-physical-stages-root .diagram-container { overflow:visible }</style><marker id="d-11-physical-stages-11-physical-stages-neutral" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#526774"/></marker>
+<marker id="d-11-physical-stages-11-physical-stages-accent" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L8 3 L0 6 Z" fill="#216e69"/></marker></defs>
+<rect x="0" y="0" width="960" height="820" rx="0" fill="#f5f1e8" stroke-width="1.2"/>
+<text x="40" y="48" fill="#526774" font-size="16" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">PERSONAL AGENT  /  LAYER STACK</text>
+<text x="40" y="100" fill="#18343f" font-size="32" font-weight="600" font-family="Noto Serif CJK SC, Songti SC, serif" text-anchor="start">走出屏幕，行动边界逐级具体</text>
+<text x="40" y="140" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">三类能力可以组合，不代表设备会自动沿阶梯升级。</text>
+<rect x="40" y="188" width="880" height="124" rx="6" fill="#fffdf8" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="64" y="236" fill="#216e69" font-size="26" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">01</text>
+<text x="132" y="236" fill="#18343f" font-size="26" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">感知与反馈</text>
+<text x="132" y="276" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">眼镜 · 耳机 · 手表</text>
+<text x="896" y="262" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">采集旁人？何时关闭？</text>
+<rect x="40" y="336" width="880" height="124" rx="6" fill="#e5eee9" stroke="#216e69" stroke-width="1.2"/>
+<text x="64" y="384" fill="#216e69" font-size="26" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">02</text>
+<text x="132" y="384" fill="#18343f" font-size="26" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">设备控制</text>
+<text x="132" y="424" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">家庭中枢 · IoT</text>
+<text x="896" y="410" fill="#216e69" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">能看什么？能改什么？</text>
+<rect x="40" y="484" width="880" height="124" rx="6" fill="#fffdf8" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="64" y="532" fill="#216e69" font-size="26" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">03</text>
+<text x="132" y="532" fill="#18343f" font-size="26" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">物理操作</text>
+<text x="132" y="572" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">工业／家庭机器人</text>
+<text x="896" y="558" fill="#526774" font-size="20" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="end">谁批准？怎样安全停下？</text>
+<text x="40" y="666" fill="#18343f" font-size="24" font-weight="600" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">部署要另看</text>
+<text x="232" y="666" fill="#526774" font-size="21" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">运行时 · 模型推理 · 工具执行 · 数据与日志</text>
+<line x1="40" y1="720" x2="920" y2="720" stroke="#c5d0ca" stroke-width="1.2"/>
+<text x="40" y="756" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">上市、限定部署、测试、预订是不同证据；硬件有 AI 不等于个人智能体已成熟。</text>
+<text x="40" y="788" fill="#526774" font-size="18" font-weight="400" font-family="Noto Sans CJK SC, PingFang SC, Microsoft YaHei, sans-serif" text-anchor="start">设备断网、没电或服务停用后，任务与安全状态仍要说得清。</text>
+</svg>

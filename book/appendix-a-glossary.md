@@ -10,6 +10,7 @@
 | AI 助手（AI Assistant） | 广义协助入口，可能以回答为主，也可能具有行动能力 | 能准备建议，还是能实际执行？ |
 | 任务代理（Task Agent） | 围绕一项明确目标组织步骤和工具 | 任务结束的标准是什么？ |
 | 工作代理（Work Agent） | 面向专业工作、组织资源和交付流程的代理 | 谁验收？谁能批准？ |
+| 企业流程智能体 | 由组织指定，在限定业务流程与权限中推进任务 | 代表哪个团队？谁负责异常和撤销？ |
 | 大语言模型（LLM） | 理解、生成与选择行动所用的模型组件 | 具体型号和供应方是什么？ |
 | 工具（Tool） | 查询、读取、修改或执行某项动作的接口 | 实际能接触什么，能改什么？ |
 | 函数调用（Function Calling） | 模型生成结构化工具请求的一种机制 | 请求是否执行，结果是否检查？ |
@@ -42,6 +43,7 @@
 | 云端派（Managed Cloud Agent） | 厂商托管的持续代理服务，本书用来与本地派并列讨论 | 地区、账号、数据处理和费用 |
 | 自托管（Self-hosting） | 用户或其团队负责运行环境的部署与维护 | 可以在本机，也可以在云服务器 |
 | 混合部署（Hybrid Deployment） | 本地与远程组件共同完成任务 | 逐项写明执行、推理与资料流向 |
+| 设备端推理（On-device Inference） | 模型计算在指定实体设备上完成 | 整个任务、工具和日志是否仍使用云端？ |
 | 本地推理（Local Inference） | 模型计算在可用的本地环境完成 | 其他搜索、工具、日志仍可能外发 |
 | 开源（Open Source） | 相应代码依许可证开放查看、修改和使用 | 不自动保证零成本、隔离或可迁移 |
 | 沙箱（Sandbox） | 对进程访问文件、网络或系统能力设置边界的环境 | 是否启用，哪些挂载和网络仍可用？ |
@@ -60,7 +62,8 @@
 | 常设授权（Standing Authorization） | 在明确对象、动作、期限和例外内可重复使用的许可 | 代理可自行扩大额度或范围 |
 | 人机交接（Human Handoff） | 把登录、确认、异常或判断交还给人 | 所有交接都算失败 |
 | 净时间收益（Net Time Saved） | 可比手工主动时间减去使用代理后的全部主动投入 | 用运行时长直接当作人节省的时间 |
+| 物理停点 | 设备或机器人在越界、故障或不确定时停止新动作并交回控制 | 语言模型说“停止”不等于执行器已有安全停机机制 |
 | 可迁移性（Portability） | 能带走必要资料并在另一环境恢复需要的工作 | 只下载聊天记录就算迁移完成 |
 | 法律人格（Legal Personality） | 法律承认的权利义务主体资格 | 邮箱、电话、钱包或品牌名称自动赋予资格 |
 
-这些解释是便于阅读的工作定义，不是替代协议规范或法律定义。技术出处主要见 [MCP 工具规范](https://modelcontextprotocol.io/specification/2025-06-18/server/tools)、[OpenClaw 文档](https://docs.openclaw.ai/)、[Hermes 文档](https://hermes-agent.nousresearch.com/docs/)及 [OWASP 提示注入说明](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)。授权、迁移与法律范围详见第 9、12 章。
+这些解释是便于阅读的工作定义，不是替代协议规范或法律定义。技术出处主要见 [MCP 工具规范](https://modelcontextprotocol.io/specification/2025-06-18/server/tools)、[OpenClaw 文档](https://docs.openclaw.ai/)、[Hermes 文档](https://hermes-agent.nousresearch.com/docs/)及 [OWASP 提示注入说明](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)。企业授权、设备行动与迁移范围详见第 9—11、14 章。

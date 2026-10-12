@@ -17,7 +17,7 @@
 
 AI 已经能回答问题、操作工具，甚至在你离开之后继续工作。接下来，你需要判断：**哪些事情值得交给它，怎样交得清楚，以及怎样保留自己的控制权。**
 
-本书从一次航班变更出发，先看今天的产品与能力，再展开选择、使用和授权，简短回望过去，最后讨论可以验证的未来。面向已经接触 AI、希望减少查找、串联、等待和跟进负担的中文读者，阅读无需编程基础。
+本书从一次航班变更出发，先看今天的产品与能力，再展开选择、使用和授权，以及个人智能体进入企业与实体设备时的新边界；随后简短回望过去，最后讨论可以验证的未来。面向已经接触 AI、希望减少查找、串联、等待和跟进负担的中文读者，阅读无需编程基础。
 
 <p align="center">
   <a href="https://mancbj.github.io/personal-agent-book/"><strong>在线阅读全文</strong></a>
@@ -33,19 +33,19 @@ AI 已经能回答问题、操作工具，甚至在你离开之后继续工作�
 
 ## 阅读与下载
 
-当前版本：**[v0.6.2-cover-fit](https://github.com/mancbj/personal-agent-book/releases/tag/v0.6.2-cover-fit)** · 全书初稿 · 封面适配版 · 2026-10-10。全书将 Personal Agent 统一称为“个人智能体”；PDF 封面现已铺满整页。**四篇正文、12 章、5 个附录已经齐全**，后续继续通读修订与更新产品快照。
+当前版本：**[v0.7.0-enterprise-hardware](https://github.com/mancbj/personal-agent-book/releases/tag/v0.7.0-enterprise-hardware)** · 全书初稿 · 企业与硬件增补版 · 2026-10-12。全书将 Personal Agent 统一称为“个人智能体”；新增企业应用与实体设备两章。**四篇正文、14 章、5 个附录已经齐全**，后续继续通读修订与更新产品快照。
 
 <!-- RELEASE-DOWNLOADS-BEGIN -->
 | 阅读方式 | 入口 | 适合怎样使用 |
 | --- | --- | --- |
 | 在线阅读 | [GitHub Pages 全书](https://mancbj.github.io/personal-agent-book/) | 直接开始，使用目录跳转，手机和电脑均可阅读 |
-| PDF | [下载阅读版](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.2-cover-fit/personal-agent-book.pdf) | 分页阅读，带封面、目录、书签与矢量图 |
-| 单页 HTML | [下载离线版](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.2-cover-fit/personal-agent-book.html) | 一份文件保存全文、封面与图像，断网可读 |
-| 完整 Markdown | [下载全书 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.2-cover-fit/personal-agent-book.md) | 检索、摘录或用自己的编辑器阅读；图片需随包保存 |
-| 全套 ZIP | [下载全部文件](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.2-cover-fit/personal-agent-book-v0.6.2-cover-fit.zip) | 同时获得各格式、分章源稿、封面、图像和来源记录 |
+| PDF | [下载阅读版](https://github.com/mancbj/personal-agent-book/releases/download/v0.7.0-enterprise-hardware/personal-agent-book.pdf) | 分页阅读，带封面、目录、书签与矢量图 |
+| 单页 HTML | [下载离线版](https://github.com/mancbj/personal-agent-book/releases/download/v0.7.0-enterprise-hardware/personal-agent-book.html) | 一份文件保存全文、封面与图像，断网可读 |
+| 完整 Markdown | [下载全书 Markdown](https://github.com/mancbj/personal-agent-book/releases/download/v0.7.0-enterprise-hardware/personal-agent-book.md) | 检索、摘录或用自己的编辑器阅读；图片需随包保存 |
+| 全套 ZIP | [下载全部文件](https://github.com/mancbj/personal-agent-book/releases/download/v0.7.0-enterprise-hardware/personal-agent-book-v0.7.0-enterprise-hardware.zip) | 同时获得各格式、分章源稿、封面、图像和来源记录 |
 <!-- RELEASE-DOWNLOADS-END -->
 
-[查看全部版本](https://github.com/mancbj/personal-agent-book/releases) · [本版文件校验值](https://github.com/mancbj/personal-agent-book/releases/download/v0.6.2-cover-fit/SHA256SUMS.txt)
+[查看全部版本](https://github.com/mancbj/personal-agent-book/releases) · [本版文件校验值](https://github.com/mancbj/personal-agent-book/releases/download/v0.7.0-enterprise-hardware/SHA256SUMS.txt)
 
 <a id="start-reading"></a>
 
@@ -62,6 +62,7 @@ AI 已经能回答问题、操作工具，甚至在你离开之后继续工作�
 - **算清代理是否省心**：把配置、监督、审批、纠错与维护都计入试用，用同一项任务比较收益。
 - **写出可执行的委托**：说明目标、输入、允许动作、预算、等待条件、验收与异常停点。
 - **管理授权与迁移**：知道它能接触什么、如何停止，以及更换服务时哪些状态与权限需要重新确认。
+- **看清企业与硬件的真实进展**：分清个人和组织的委托，区分已上市设备、限定部署、测试与预订。
 - **判断值得跟踪的未来**：每种情景都有成立前提、观察信号与反证，便于随事实调整判断。
 
 ## 本地派与云端派，贯穿全书
@@ -70,7 +71,7 @@ AI 已经能回答问题、操作工具，甚至在你离开之后继续工作�
 
 **云端派提供持续在线与托管便利。** Muse、Dot（Dots）等服务帮助用户跨设备联系代理，并由平台承担一部分环境运维。LightVela 云端托管 Hermes、云端调度本地执行等交集，也放在同一张地图上讨论。
 
-代理运行位置、模型推理位置、软件是否开源，分别核对；混合部署继续说明数据流与控制权。相关内容从[第 2 章的概念地图](book/02-concepts-and-runtimes.md)，延伸到[第 5 章的本地场景](book/05-local-runtimes.md)与[第 12 章的数字生活控制权](book/12-control-of-digital-life.md)。
+代理运行位置、模型推理位置、软件是否开源，分别核对；混合部署继续说明数据流与控制权。相关内容从[第 2 章的概念地图](book/02-concepts-and-runtimes.md)，延伸到[第 5 章的本地场景](book/05-local-runtimes.md)与[第 14 章的数字生活控制权](book/14-control-of-digital-life.md)。
 
 ## 按你的目标选择阅读路线
 
@@ -79,7 +80,9 @@ AI 已经能回答问题、操作工具，甚至在你离开之后继续工作�
 | 初次认识个人智能体 | [第 1 章](book/01-what-agents-take-over.md) → [第 2 章](book/02-concepts-and-runtimes.md) → [第 3 章](book/03-product-landscape.md) | 分工、概念与产品地图 |
 | 选一个方案并交出任务 | [第 4 章](book/04-cloud-agents.md) → [第 5 章](book/05-local-runtimes.md) → [第 7 章](book/07-choosing-an-agent.md) → [第 8 章](book/08-delegating-work.md) → [第 9 章](book/09-trust-and-permissions.md) | 选型依据、试用方法与授权边界 |
 | 使用本地资源或自托管 | [第 5 章](book/05-local-runtimes.md) → [第 6 章](book/06-how-agents-work.md) → [附录 D](book/appendix-d-self-hosting.md) | 部署选择、工作循环与起步验收 |
-| 理解长期趋势与控制权 | [第 10 章](book/10-history-of-personal-agents.md) → [第 11 章](book/11-future-scenarios.md) → [第 12 章](book/12-control-of-digital-life.md) | 历史口径、验证信号与选择权 |
+| 关注企业应用和商业落地 | [第 9 章](book/09-trust-and-permissions.md) → [第 10 章](book/10-enterprise-boundaries.md) → [附录 C](book/appendix-c-worksheets.md) | 个人与组织的权限边界、流程验收和净收益 |
+| 关注眼镜、家居和机器人 | [第 5 章](book/05-local-runtimes.md) → [第 11 章](book/11-embodied-agents.md) → [附录 B](book/appendix-b-product-snapshot.md) | 设备状态、数据路径和物理停点 |
+| 理解长期趋势与控制权 | [第 12 章](book/12-history-of-personal-agents.md) → [第 13 章](book/13-future-scenarios.md) → [第 14 章](book/14-control-of-digital-life.md) | 历史口径、验证信号与选择权 |
 
 <details>
 <summary><strong>展开全书结构与分章 Markdown</strong></summary>
@@ -87,9 +90,9 @@ AI 已经能回答问题、操作工具，甚至在你离开之后继续工作�
 | 部分 | 阅读入口与章节 |
 | --- | --- |
 | 第一篇 · 先看今天 | [阅读说明](book/00-introduction.md) · [1·接手什么](book/01-what-agents-take-over.md) · [2·概念与运行环境](book/02-concepts-and-runtimes.md) · [3·产品版图](book/03-product-landscape.md) |
-| 第二篇 · 再看细节 | [阅读说明](book/part2-introduction.md) · [4·云端派](book/04-cloud-agents.md) · [5·本地派](book/05-local-runtimes.md) · [6·工作循环](book/06-how-agents-work.md) · [7·选购](book/07-choosing-an-agent.md) · [8·使用](book/08-delegating-work.md) · [9·托付](book/09-trust-and-permissions.md) |
-| 第三篇 · 简短回望 | [阅读说明](book/part3-introduction.md) · [10·演进历程](book/10-history-of-personal-agents.md) |
-| 第四篇 · 最后看未来 | [阅读说明](book/part4-introduction.md) · [11·未来情景](book/11-future-scenarios.md) · [12·数字生活控制权](book/12-control-of-digital-life.md) |
+| 第二篇 · 再看细节 | [阅读说明](book/part2-introduction.md) · [4·云端派](book/04-cloud-agents.md) · [5·本地派](book/05-local-runtimes.md) · [6·工作循环](book/06-how-agents-work.md) · [7·选购](book/07-choosing-an-agent.md) · [8·使用](book/08-delegating-work.md) · [9·托付](book/09-trust-and-permissions.md) · [10·企业应用](book/10-enterprise-boundaries.md) · [11·实体设备](book/11-embodied-agents.md) |
+| 第三篇 · 简短回望 | [阅读说明](book/part3-introduction.md) · [12·演进历程](book/12-history-of-personal-agents.md) |
+| 第四篇 · 最后看未来 | [阅读说明](book/part4-introduction.md) · [13·未来情景](book/13-future-scenarios.md) · [14·数字生活控制权](book/14-control-of-digital-life.md) |
 | 五个附录 | [A·术语](book/appendix-a-glossary.md) · [B·产品快照](book/appendix-b-product-snapshot.md) · [C·工作表](book/appendix-c-worksheets.md) · [D·自托管](book/appendix-d-self-hosting.md) · [E·来源与争议](book/appendix-e-sources-and-disputes.md) |
 
 [完整目录与各章问题](TOC.md) · [版本、出版范围与章节顺序](book.json)
@@ -98,12 +101,12 @@ AI 已经能回答问题、操作工具，甚至在你离开之后继续工作�
 
 ## 随书的图与工作表
 
-十二张信息图帮助你看清概念、资源、工作循环、授权与未来；本版重绘原有九张，新增净时间收益瀑布图、任务状态图和迁移流程图。设计参考 [diagram-design](https://github.com/cathrynlavery/diagram-design) 的模板，沿用本书深绿与米白配色。六套可复制工作表覆盖**选型、一周试用、任务委托、长期权限、暂停与迁移、异常与勘误**。另有四个教学案例，帮助把委托落到具体结果。
+十四张信息图帮助你看清概念、资源、工作循环、授权、企业协作、实体设备与未来；本版新增两张图，展示跨组织委托和从感知到物理行动的边界。设计参考 [diagram-design](https://github.com/cathrynlavery/diagram-design) 的模板，沿用本书深绿与米白配色。八套可复制工作表新增**企业任务交接**和**设备试用**，并保留选型、委托、权限与迁移等方法。另有四个教学案例，帮助把委托落到具体结果。
 
 [独立 HTML 图表](https://mancbj.github.io/personal-agent-book/diagrams/) · [浏览 SVG](assets/figures/) · [复制工作表](book/appendix-c-worksheets.md) · [阅读委托案例](book/08-delegating-work.md)
 
 <details>
-<summary><strong>展开十二张信息图索引</strong></summary>
+<summary><strong>展开十四张信息图索引</strong></summary>
 
 | 位置 | 信息图 |
 | --- | --- |
@@ -115,9 +118,11 @@ AI 已经能回答问题、操作工具，甚至在你离开之后继续工作�
 | 第 7 章 | [选型路径](assets/figures/07-selection-path.svg) · [净时间收益](assets/figures/07-time-gain.svg) |
 | 第 8 章 | [任务状态与恢复](assets/figures/08-task-states.svg) |
 | 第 9 章 | [授权层次](assets/figures/09-permission-layers.svg) |
-| 第 10 章 | [演进历程](assets/figures/10-evolution.svg) |
-| 第 11 章 | [未来情景与验证信号](assets/figures/11-future-signals.svg) |
-| 第 12 章 | [迁移与重新授权](assets/figures/12-migration.svg) |
+| 第 10 章 | [个人与企业的委托边界](assets/figures/10-enterprise-boundaries.svg) |
+| 第 11 章 | [从感知到物理行动](assets/figures/11-physical-stages.svg) |
+| 第 12 章 | [演进历程](assets/figures/12-evolution.svg) |
+| 第 13 章 | [未来情景与验证信号](assets/figures/13-future-signals.svg) |
+| 第 14 章 | [迁移与重新授权](assets/figures/14-migration.svg) |
 
 HTML 内嵌图像，PDF 使用矢量图；SVG、独立图表 HTML、再生代码、许可说明与封面随全套 ZIP 提供。[图型选择与内容取舍](research/diagram-design-notes.md)。
 
@@ -127,7 +132,7 @@ HTML 内嵌图像，PDF 使用矢量图；SVG、独立图表 HTML、再生代码
 
 代表产品覆盖 Meta **Muse**、xAI **Grok Bot**、OpenAI **Dot（Dots）**、Manus **Cue**、腾讯 **LightVela**、字节 **Spell**、阿里**千问的 Personal Agent**、**Instinct**、Today AI 的 **Today**，以及 **OpenClaw、Hermes**。
 
-产品资料观察截至 **2026-10-10**，以公开公告和文档为主，尚无统一实机测评。开放阶段、地区、平台、费用口径及未核实项集中在[附录 B](book/appendix-b-product-snapshot.md)。例如 Instinct 的约 10% 日增长保留为访谈自报线索，指标、基数和区间尚未独立核实。
+原有代表产品资料观察截至 **2026-10-10**，新增企业与硬件案例核查至 **2026-10-12**，以公开公告和文档为主，尚无统一实机测评。开放阶段、地区、平台、费用口径及未核实项集中在[附录 B](book/appendix-b-product-snapshot.md)。例如 Instinct 的约 10% 日增长保留为访谈自报线索，指标、基数和区间尚未独立核实。
 
 我们保留观点分歧，分析各自成立的条件；事实冲突则回到出处核对。厂商描述、媒体报道、用户体验、作者分析与教学示例分别标明。价格与可用范围以你尝试时的最新官方信息为准。
 
@@ -141,6 +146,7 @@ HTML 内嵌图像，PDF 使用矢量图；SVG、独立图表 HTML、再生代码
 - [第二篇：部署、实践与权限](research/part2-sources.md)
 - [第三篇：历史节点与口径](research/part3-sources.md)
 - [第四篇：未来情景与控制权](research/part4-sources.md)
+- [新增研究：企业应用与实体设备](research/enterprise-hardware-sources.md)
 - [附录：产品与安装资料](research/appendices-sources.md)
 - [全书来源、争议与更正索引](book/appendix-e-sources-and-disputes.md)
 

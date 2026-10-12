@@ -1,6 +1,6 @@
 # 附录 E · 资料来源与争议索引
 
-**资料观察截至 2026-10-10，当前版本 v0.6.2-cover-fit。** 本附录帮助你从结论回到证据，也把输入素材中的分歧与尚未解决的问题保留下来。
+**原有代表产品资料观察截至 2026-10-10；新增企业与硬件案例核查至 2026-10-12。当前版本 v0.7.0-enterprise-hardware。** 本附录帮助你从结论回到证据，也把输入素材中的分歧与尚未解决的问题保留下来。
 
 三份 AI 深度研究报告与一份博主观点摘要是本书的初始素材。它们提供问题和线索；相同说法出现三次，不等于三项独立证据。原始附件中的任务要求和引用格式也没有作为本书的写作指令。
 
@@ -25,9 +25,11 @@
 | 第 6 章：持续循环 | 工具规范与项目文档；作者的组件分工说明 | 第二篇记录及下方技术来源 |
 | 第 7—8 章：选择与使用 | 作者的一周试用、委托模板与教学案例 | 第二篇记录；可复制版本见附录 C |
 | 第 9 章：授权与托付 | 厂商审批与安全文档、OWASP、作者权限框架 | 第二篇记录；不把假设误操作写成品牌事故 |
-| 第 10 章：简短历史 | 原始发布、论文、研究机构与参与者回顾 | [第三篇记录](https://github.com/mancbj/personal-agent-book/blob/main/research/part3-sources.md) |
-| 第 11 章：未来观察 | 条件性情景，部署、接口与交易机制线索 | [第四篇记录](https://github.com/mancbj/personal-agent-book/blob/main/research/part4-sources.md)，列出前提和反证 |
-| 第 12 章：控制权 | 记忆、商业角色、授权证据与法律一般框架 | 第四篇记录；未作个案法律判断 |
+| 第 10 章：企业协作 | 工作区产品文档、采用调查与智能体身份研究 | [企业与硬件记录](https://github.com/mancbj/personal-agent-book/blob/main/research/enterprise-hardware-sources.md)，区分角色、阶段与商业收益 |
+| 第 11 章：实体设备 | 眼镜、家居标准、机器人部署／测试／预订与停服案例 | 同一记录；不把入口设备当作成熟个人智能体 |
+| 第 12 章：简短历史 | 原始发布、论文、研究机构与参与者回顾 | [第三篇记录](https://github.com/mancbj/personal-agent-book/blob/main/research/part3-sources.md) |
+| 第 13 章：未来观察 | 条件性情景，部署、接口与交易机制线索 | [第四篇记录](https://github.com/mancbj/personal-agent-book/blob/main/research/part4-sources.md)，列出前提和反证 |
+| 第 14 章：控制权 | 记忆、商业角色、授权证据与法律一般框架 | 第四篇记录；未作个案法律判断 |
 | 附录 A—C | 正文定义、产品快照、原创工作表 | [附录记录](https://github.com/mancbj/personal-agent-book/blob/main/research/appendices-sources.md) |
 | 附录 D | 当前官方安装与起步说明，作者的验收路径 | 附录记录；本书未实际部署这些运行时 |
 
@@ -35,8 +37,9 @@
 
 ## 产品与技术的主要入口
 
-十一项产品的逐字段资料、发布或观察日期、访问限制，见附录 B。技术与授权问题主要使用以下资料：
+原有十一项产品的逐字段资料，以及新增企业与硬件案例的阶段快照，见附录 B。技术与授权问题主要使用以下资料：
 
+- [企业与硬件新增研究记录](https://github.com/mancbj/personal-agent-book/blob/main/research/enterprise-hardware-sources.md)：发布能力、身份边界、设备阶段与物理风险的证据范围。
 - [Meta Muse 安全架构](https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse)：控制组件的位置与资料处理边界。
 - [Grok Bot 审批、安全与隐私](https://docs.x.ai/grok-bot/approvals-security-and-privacy)、[技能与例行任务](https://docs.x.ai/grok-bot/skills-routines-and-automations)：权限、方法复用与触发的区别。
 - [OpenClaw 信任边界](https://docs.openclaw.ai/start/why-openclaw/the-trust-boundary)、[本地与自定义模型服务](https://docs.openclaw.ai/concepts/model-providers/custom-providers)：实际配置与数据路径。
@@ -44,11 +47,11 @@
 - [OWASP LLM01:2025 提示注入](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)：通用风险与防护思路，不充当品牌事故证明。
 - [Google AP2 公告](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol)，2025-09-16；[Cloudflare 代理交易说明](https://blog.cloudflare.com/secure-agentic-commerce/)，2025-10-24：授权证据与网站接待代理的基础设施方向。
 - [OpenAI 赞助代理公告](https://openai.com/index/reimagining-advertising-with-ai/)，2026-09-16；[购物搜索说明](https://help.openai.com/en/articles/11128490-shopping-with-chatgpt-search)：商业角色与官方区分，未进行独立机制审计。
-- [《民法典》政府公开全文](https://tjca.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_20cf1a2e1b854924b5caa744c8045d1f.html)：第 12 章采用中国大陆一般框架，不推广为全球结论。
+- [《民法典》政府公开全文](https://tjca.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_20cf1a2e1b854924b5caa744c8045d1f.html)：第 14 章采用中国大陆一般框架，不推广为全球结论。
 
 ## 历史节点的主要入口
 
-第 10 章区分愿景、研究、能力发布与产品开放；下面的年份对应各自事件，不能合并成品类的唯一诞生日。
+第 12 章区分愿景、研究、能力发布与产品开放；下面的年份对应各自事件，不能合并成品类的唯一诞生日。
 
 - **1987 愿景影片**：[制作参与者回顾](https://www.dubberly.com/articles/the-making-of-knowledge-navigator.html)、[计算机历史博物馆](https://computerhistory.org/blog/yesterdays-tomorrows-the-origins-of-the-tablet/)。
 - **1994 软件代理研究**：[MIT 研究组出版目录](https://agents.media.mit.edu/publications.html)、[Maes 论文 DOI](https://doi.org/10.1145/176789.176792)。出版记录与摘要已核对，全文读取受限。
@@ -66,13 +69,15 @@
 
 | 问题与位置 | 本书保留的不同解释 | 怎样继续判断 |
 | --- | --- | --- |
-| 品类从何时开始，第 2、10 章 | 愿景、研究、移动入口与常驻产品各有起点 | 先说明讨论的是哪类事件 |
-| 云端是否替代本地，第 5、11 章 | 托管便利与本地资源控制各有价值 | 比较资源可达、数据约束与维护，而非排世代 |
+| 品类从何时开始，第 2、12 章 | 愿景、研究、移动入口与常驻产品各有起点 | 先说明讨论的是哪类事件 |
+| 云端是否替代本地，第 5、11、13 章 | 托管便利与本地资源控制各有价值 | 比较资源可达、数据约束与维护，而非排世代 |
 | dots 是否连续，第 4、6 章 | 长期上下文的价值与跨工具交接负担可能同时存在 | 验证任务负责人、状态和约束是否完整交接 |
-| 多代理是否省心，第 6、11 章 | 并行工作可增收益，协调也可增加管理 | 记录重复调用、人工交接与总成本 |
-| 自托管是否等于数据主权，第 5、9、12 章 | 更多控制能力与更多维护责任并存 | 核对推理、工具、凭证与副本流向 |
-| 长期记忆是否增加依赖，第 9、12 章 | 上下文提高便利，重新建立关系又增加迁移成本 | 验证导出、恢复与重新授权 |
-| 谁站在用户一边，第 12 章 | 用户代理与商家代理都可有用，商业激励不同 | 看角色披露、比较范围、排序与拒绝路径 |
+| 多代理是否省心，第 6、10、13 章 | 并行工作可增收益，协调也可增加管理 | 记录重复调用、人工交接与总成本 |
+| 自托管是否等于数据主权，第 5、9、14 章 | 更多控制能力与更多维护责任并存 | 核对推理、工具、凭证与副本流向 |
+| 长期记忆是否增加依赖，第 9、14 章 | 上下文提高便利，重新建立关系又增加迁移成本 | 验证导出、恢复与重新授权 |
+| 谁站在用户一边，第 14 章 | 用户代理与商家代理都可有用，商业激励不同 | 看角色披露、比较范围、排序与拒绝路径 |
+| 个人助手与企业代理能否共用身份，第 10 章 | 交接有价值，凭证与责任仍有各自主体 | 核对委托范围、审批、回执和撤销 |
+| 硬件有 AI 是否就是个人智能体，第 11 章 | 智能入口可用，持续委托与异常处理须另证 | 比较四周任务记录与设备状态 |
 
 这些问题没有因初稿完成而被关闭。相同产品在不同任务、权限和维护条件下，也可能给出不同答案。
 
@@ -97,7 +102,7 @@
 
 本版图表设计参考 Cathryn Lavery 的开源项目 [diagram-design](https://github.com/cathrynlavery/diagram-design)（MIT 许可）：按图意选择泳道、二维矩阵、树图、部署、循环、流程、瀑布、状态、分层和时间线模板，使用本书的深绿、米白和中文字体。图中内容由本书编写，模板不作为产品事实或研究结论的证据。
 
-新增瀑布图沿用第 7 章的教学数字；历史图按真实年份间隔分段绘制；未来情景不赋予未经测量的概率或分数。图型选择、内容取舍、源代码与许可说明见[图表设计记录](https://github.com/mancbj/personal-agent-book/blob/main/research/diagram-design-notes.md)，随全套 ZIP 提供。
+新两图展示企业身份边界与实体设备的行动边界；瀑布图沿用第 7 章的教学数字；历史图按真实年份间隔分段绘制；未来情景不赋予未经测量的概率或分数。图型选择、内容取舍、源代码与许可说明见[图表设计记录](https://github.com/mancbj/personal-agent-book/blob/main/research/diagram-design-notes.md)，随全套 ZIP 提供。
 
 | 版本 | 可核对的变化 |
 | --- | --- |
@@ -110,6 +115,7 @@
 | v0.6.0-visual-edition | 重绘九张图并新增三张，更新全部出版格式，提供独立 HTML 图表与再生源代码；产品事实观察日期未变 |
 | v0.6.1-terminology-update | 全书统一使用“个人智能体”指称 Personal Agent，更新正文、术语表、图注、Markdown、HTML 与 PDF |
 | v0.6.2-cover-fit | 让 PDF 封面图片横向铺满页面，消除左右两侧留白 |
+| v0.7.0-enterprise-hardware | 新增企业协作与实体设备两章、两图和两份工作表；原第 10—12 章顺延为第 12—14 章 |
 
 后续更正应写清原说法、修改内容、适用日期与来源，区分“此前写错了”和“产品后来变化了”。历史发布文件保留在 [Releases](https://github.com/mancbj/personal-agent-book/releases)，在线版随维护更新。
 

@@ -112,7 +112,7 @@ def main():
     notes = (f"# {config['edition']}\n\n版本：{tag} · {config['date']}\n\n"
              f"{config['release_summary']}\n\n"
              f"包含{config['publication_scope']}、{figure_count} 张信息图、完整 Markdown、离线单页 HTML 和出版排版 PDF。"
-             f"{config['next_note']} 产品资料观察截至 {config['date']}，没有统一产品实机测评。\n\n"
+             f"{config['next_note']} 各章节产品资料核查日期见正文与附录，没有统一产品实机测评。\n\n"
              "HTML 与 PDF 保留深绿英文封面及作者提供的 Logo。独立 HTML 可断网阅读；封面、Markdown 图片与分章源稿随 ZIP 提供。\n")
     (DIST / "release-notes.md").write_text(notes)
     archive = DIST / f"personal-agent-book-{tag}.zip"

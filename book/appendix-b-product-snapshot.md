@@ -1,6 +1,6 @@
 # 附录 B · 产品快照与更新日期
 
-**观察日期：2026-10-10。** 这份快照供查阅，不是排名。下面十一项涵盖正文代表产品与本地运行时；媒体曝光、路线宣布、早期测试和可按文档安装，分别记录。
+**原有十一项观察日期：2026-10-10；新增企业与硬件案例：2026-10-12。** 这份快照供查阅，不是排名。原有十一项涵盖正文代表产品与本地运行时；媒体曝光、路线宣布、早期测试和可按文档安装，分别记录。新增案例按工作系统或实体设备的状态另列，不与完整个人智能体混排。
 
 每项区分开放、平台与地区、费用、模型或版本、能力边界。没有核齐的字段明确说明，不借用母产品套餐、旧型号或宣传演示补全。平台有下载入口，不表示你的地区、账号和组织都能使用。费用以购买时页面为准，表内不录入未核齐的固定金额。
 
@@ -157,6 +157,27 @@
 | 能力边界 | 记忆、技能、工具和常驻服务取决于配置与运行条件；最小设置也不等于没有文件或终端能力 |
 
 本书没有执行统一安装和性能测试。选型时按同一任务验收，避免用两款运行时的默认配置差异制造总排名。
+
+## 新增的企业与硬件观察案例
+
+这些案例用于第 10、11 章的具体论证，**不是新增十一项个人智能体代表产品**。功能、地区、客户部署和模型可能按版本变化；以下只记录本次可核对的范围。
+
+| 案例与来源 | 2026-10-12 的证据状态 | 尚不能推断 |
+| --- | --- | --- |
+| [飞书 aily](https://www.feishu.cn/content/3d5z9ttt) | 官方描述企业知识、技能编排、调优和发布渠道 | 每家企业已打通相同系统或取得相同 ROI |
+| [Microsoft 365 Agents](https://learn.microsoft.com/microsoft-365/copilot/agent-essentials/m365-agents-admin-guide) | 管理员指南可核对策略、清单和部署管理 | 平台自动决定业务授权或责任 |
+| [ChatGPT Workspace Agents](https://help.openai.com/en/articles/20001143-chatgpt-workspace-agents-for-enterprise-and-business) | 工作区文档描述创建、分享与运行；提示个人连接凭证风险 | 所有企业均已开放同一能力或共享天然安全 |
+| [腾讯元器到企业微信](https://yuanqi.tencent.com/guide/publish-agent-work-wechat) | 官方提供发布到企业微信的步骤 | 渠道发布即获后台业务系统权限 |
+| [Meta Ray-Ban Display](https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/) | 美国限定实体渠道上市的眼镜与腕带入口；地区和版本另核 | 眼镜本身就是全能、离线的个人智能体 |
+| [RealWear Navigator 520](https://www.realwear.com/devices/navigator-520) | 面向工业现场销售；远程协作、数字流程与 AI 支持为厂商描述 | 特定企业节省时间已获本书实测 |
+| [Home Assistant 本地语音](https://www.home-assistant.io/voice_control/voice_remote_local_assistant) | 官方给出全部语音处理留在本地的配置路径 | 额外接入在线模型后依旧零外发 |
+| [Matter 1.5](https://csa-iot.org/newsroom/matter-1-5-introduces-cameras-closures-and-enhanced-energy-management-capabilities/) | 标准新增设备类型与能源管理支持；它是协议而非单一产品 | 任意旧设备已升级，或协议已授予代理开锁权 |
+| [Figure 02 在 BMW](https://www.figure.ai/news/production-at-bmw) | 厂商报告限定工业任务中的约 11 个月部署 | 家庭通用机器人已成熟或独立 ROI 已核实 |
+| [Gemini Robotics On-Device](https://deepmind.google/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/) | 模型和开发工具面向选定测试者 | 大众可以购买，或整机必然离线安全 |
+| [1X NEO](https://www.1x.tech/discover/neo-home-robot) | 早期订购与计划交付 | 已大规模交付并稳定完成家庭任务 |
+| [Humane Ai Pin 停服通知](https://support.humane.com/hc/en-us/articles/34374173951373-Important-Update-for-Consumer-Ai-Pin-Customers) | 2025-02-28 起云端功能停止，是设备服务寿命的反例 | 所有云端硬件都会同样停服 |
+
+详细的采用范围、争议和研究边界见[企业与硬件来源记录](https://github.com/mancbj/personal-agent-book/blob/main/research/enterprise-hardware-sources.md)。
 
 ## 怎样更新这份快照
 

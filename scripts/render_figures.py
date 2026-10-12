@@ -398,8 +398,54 @@ def permissions():
     return f
 
 
+def enterprise_boundaries():
+    f = Figure("10-enterprise-boundaries", "同一件事，三种不同的委托",
+               "个人智能体、组织工作智能体和外部服务智能体分属不同委托与权限边界；跨界传递最少资料，并核对身份、动作、审批及回执。",
+               "swimlane", 816, "差旅任务示意：可以交接请求，不能让凭证和权限自动合并。")
+    columns = [(40, "个人侧", "本人委托", "偏好与私人安排", "提出：周五前返程"),
+               (344, "组织侧", "企业制度", "差标与审批状态", "核对：预算和例外"),
+               (648, "服务侧", "商家规则", "库存与订单状态", "返回：预订回执")]
+    for x, heading, role, data, task in columns:
+        f.rect(x, 188, 272, 344, PAPER, MUTED, 8, stroke_dasharray="4 5")
+        f.text(x + 20, 228, heading, 24, INK, 600)
+        f.text(x + 20, 268, role, 20, MUTED)
+        f.node(x + 20, 302, 232, 120, "智能体与工具", [data, task], focal=x == 40)
+        f.text(x + 20, 474, "权限留在本边界", 20, MUTED)
+    f.path("M312 444 H344", ACCENT)
+    f.path("M616 444 H648", ACCENT)
+    f.line(40, 576, 920, 576)
+    f.text(40, 624, "每次交接都要说清", 24, INK, 600)
+    f.lines(40, 666, ["谁发起 · 为哪项任务 · 带哪些资料 · 可做什么动作",
+                      "谁批准 · 有效期多久 · 结果和异常交给谁"], 21, 36)
+    f.footer("连接协议解决接口，不替个人、企业或商家决定业务授权。",
+             "作者教学示意；不是现有三款产品已经完成的端到端互通。")
+    return f
+
+
+def physical_stages():
+    f = Figure("11-physical-stages", "走出屏幕，行动边界逐级具体",
+               "眼镜与可穿戴侧重感知和反馈，家庭中枢连接设备与执行器，机器人增加移动与接触物品；每层分别核对授权、失败和产品成熟度。",
+               "layer stack", 820, "三类能力可以组合，不代表设备会自动沿阶梯升级。")
+    rows = [
+        (188, "01", "感知与反馈", "眼镜 · 耳机 · 手表", "采集旁人？何时关闭？", False),
+        (336, "02", "设备控制", "家庭中枢 · IoT", "能看什么？能改什么？", True),
+        (484, "03", "物理操作", "工业／家庭机器人", "谁批准？怎样安全停下？", False),
+    ]
+    for y, tag, heading, examples, question, focal in rows:
+        f.rect(40, y, 880, 124, TINT if focal else WHITE, ACCENT if focal else RULE, 6)
+        f.text(64, y + 48, tag, 26, ACCENT, 600)
+        f.text(132, y + 48, heading, 26, INK, 600)
+        f.text(132, y + 88, examples, 20, MUTED)
+        f.text(896, y + 74, question, 20, ACCENT if focal else MUTED, anchor="end")
+    f.text(40, 666, "部署要另看", 24, INK, 600)
+    f.text(232, 666, "运行时 · 模型推理 · 工具执行 · 数据与日志", 21, MUTED)
+    f.footer("上市、限定部署、测试、预订是不同证据；硬件有 AI 不等于个人智能体已成熟。",
+             "设备断网、没电或服务停用后，任务与安全状态仍要说得清。")
+    return f
+
+
 def evolution():
-    f = Figure("10-evolution", "组件逐步汇合，路线继续并行",
+    f = Figure("12-evolution", "组件逐步汇合，路线继续并行",
                "三个分段时间轴按真实年份间隔列出概念愿景、代理研究、消费产品以及行动和工具协议节点；分段采用各自刻度，不代表连续或单线演进。",
                "timeline", 1040, "日期对应不同类型的事件；三段独立刻度，间隔按真实年份绘制。")
     # Three labelled ranges prevent a compressed recent cluster from faking time.
@@ -431,7 +477,7 @@ def evolution():
 
 
 def future():
-    f = Figure("11-future-signals", "未来不靠押注，用信号持续检验",
+    f = Figure("13-future-signals", "未来不靠押注，用信号持续检验",
                "大众生活助手、专业工作代理、自主可迁移环境三种情景各有前提、观察信号与反证，可以并行存在，不能用产品定位代替实际验证。",
                "tree", 888, "三种并行情景；每种判断都保留可以推翻自己的证据。")
     f.line(224, 456, 264, 456, MUTED)
@@ -451,7 +497,7 @@ def future():
 
 
 def migration():
-    f = Figure("12-migration", "能导出记录，还要能安全地继续",
+    f = Figure("14-migration", "能导出记录，还要能安全地继续",
                "迁移先暂停旧环境，核对和导出任务状态，在新环境检查上下文并重新授权，最后用低风险任务验证恢复，凭证与付款权限不自动继承。",
                "process", 720, "把状态与行动权限分开：搬走必要上下文，重新决定能做什么。")
     xs = [40, 220, 400, 580, 760]
@@ -476,7 +522,8 @@ def migration():
 
 
 BUILDERS = [handoff, concept, landscape, resources, cycle, selection,
-            time_gain, task_states, permissions, evolution, future, migration]
+            time_gain, task_states, permissions, enterprise_boundaries,
+            physical_stages, evolution, future, migration]
 
 
 def render(output_dir=None):
